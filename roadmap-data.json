@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-02-08",
-    "overallProgress": 17,
+    "overallProgress": 23,
     "sections": [
       {
         "section": "Introduction",
@@ -329,7 +329,7 @@
       },
       {
         "section": "OpenAI Platform",
-        "progress": 20,
+        "progress": 100,
         "topics": [
           {
             "id": "openai-platform",
@@ -360,38 +360,41 @@
           {
             "id": "chat-completions-api",
             "title": "Chat Completions API",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chat-api-demo",
             "resources": [
               "Chat API Guide",
               "Completion Examples"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "openai-playground",
             "title": "OpenAI Playground",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "playground-experiments",
             "resources": [
               "Playground Guide",
               "Parameter Tuning"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "fine-tuning",
             "title": "Fine-tuning",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "fine-tuning-project",
             "resources": [
               "Fine-tuning Guide",
               "Model Customization"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "managing-tokens",
@@ -409,50 +412,54 @@
           {
             "id": "maximum-tokens",
             "title": "Maximum Tokens",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "token-limits",
             "resources": [
               "Token Limits",
               "Model Constraints"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "token-counting",
             "title": "Token Counting",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "token-counter",
             "resources": [
               "Token Counting",
               "Counting Tools"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "pricing-considerations",
             "title": "Pricing Considerations",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 1,
             "project": "pricing-analysis",
             "resources": [
               "Pricing Guide",
               "Cost Analysis"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "writing-prompts",
             "title": "Writing Prompts",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "prompt-writing",
             "resources": [
               "Prompt Writing",
               "Best Practices"
-            ]
+            ],
+            "completedDate": "2026-02-08"
           }
         ]
       },
@@ -1516,7 +1523,8 @@
           "pricing-considerations",
           "writing-prompts"
         ],
-        "achieved": false
+        "achieved": true,
+        "achievedDate": "2026-02-08"
       },
       {
         "id": "safety-certified",
