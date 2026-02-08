@@ -2,12 +2,12 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2025-01-08",
-    "overallProgress": 0,
+    "lastUpdated": "2026-02-08",
+    "overallProgress": 17,
     "sections": [
       {
         "section": "Introduction",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "what-is-ai-engineer",
@@ -17,7 +17,10 @@
             "estimatedHours": 2,
             "project": "ai-engineer-research",
             "completedDate": "2025-01-08",
-            "resources": ["AI Engineer vs ML Engineer", "Roles and Responsibilities"]
+            "resources": [
+              "AI Engineer vs ML Engineer",
+              "Roles and Responsibilities"
+            ]
           },
           {
             "id": "ai-engineer-vs-ml-engineer",
@@ -27,43 +30,62 @@
             "estimatedHours": 1,
             "project": "role-comparison",
             "completedDate": "2025-01-08",
-            "resources": ["Role Comparison", "Career Paths"]
+            "resources": [
+              "Role Comparison",
+              "Career Paths"
+            ]
           },
           {
             "id": "roles-responsibilities",
             "title": "Roles and Responsibilities",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "responsibility-analysis",
-            "resources": ["Job Descriptions", "Industry Analysis"]
+            "resources": [
+              "Job Descriptions",
+              "Industry Analysis"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "impact-product-development",
             "title": "Impact on Product Development",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "impact-study",
-            "resources": ["Product Development", "AI Integration"]
+            "resources": [
+              "Product Development",
+              "AI Integration"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "ai-vs-agi",
             "title": "AI vs AGI",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "ai-agi-analysis",
-            "resources": ["AI Fundamentals", "AGI Research"]
+            "resources": [
+              "AI Fundamentals",
+              "AGI Research"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "common-terminology",
             "title": "Common Terminology",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "terminology-guide",
-            "resources": ["AI Glossary", "Technical Terms"]
+            "resources": [
+              "AI Glossary",
+              "Technical Terms"
+            ],
+            "completedDate": "2026-02-08"
           }
         ]
       },
@@ -78,7 +100,10 @@
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "llm-overview",
-            "resources": ["LLM Guide", "Model Architecture"]
+            "resources": [
+              "LLM Guide",
+              "Model Architecture"
+            ]
           },
           {
             "id": "inference",
@@ -87,7 +112,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "inference-demo",
-            "resources": ["Inference Guide", "Model Deployment"]
+            "resources": [
+              "Inference Guide",
+              "Model Deployment"
+            ]
           },
           {
             "id": "training",
@@ -96,7 +124,10 @@
             "difficulty": "advanced",
             "estimatedHours": 8,
             "project": "training-basics",
-            "resources": ["Training Guide", "Model Training"]
+            "resources": [
+              "Training Guide",
+              "Model Training"
+            ]
           },
           {
             "id": "embeddings",
@@ -105,7 +136,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "embedding-basics",
-            "resources": ["Embedding Guide", "Vector Representations"]
+            "resources": [
+              "Embedding Guide",
+              "Vector Representations"
+            ]
           },
           {
             "id": "vector-databases",
@@ -114,7 +148,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "vector-db-intro",
-            "resources": ["Vector DB Guide", "Database Concepts"]
+            "resources": [
+              "Vector DB Guide",
+              "Database Concepts"
+            ]
           },
           {
             "id": "rag",
@@ -123,7 +160,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "rag-intro",
-            "resources": ["RAG Guide", "Retrieval Concepts"]
+            "resources": [
+              "RAG Guide",
+              "Retrieval Concepts"
+            ]
           },
           {
             "id": "prompt-engineering",
@@ -132,7 +172,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "prompt-basics",
-            "resources": ["Prompt Guide", "Engineering Techniques"]
+            "resources": [
+              "Prompt Guide",
+              "Engineering Techniques"
+            ]
           },
           {
             "id": "ai-agents",
@@ -141,49 +184,68 @@
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "agent-intro",
-            "resources": ["Agent Guide", "Autonomous Systems"]
+            "resources": [
+              "Agent Guide",
+              "Autonomous Systems"
+            ]
           }
         ]
       },
       {
         "section": "Working with Pretrained Models",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "using-pretrained-models",
             "title": "Using Pre-trained Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "pretrained-demo",
-            "resources": ["Pretrained Guide", "Model Usage"]
+            "resources": [
+              "Pretrained Guide",
+              "Model Usage"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "benefits-pretrained",
             "title": "Benefits of Pre-trained Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "benefits-analysis",
-            "resources": ["Benefits Guide", "Advantages"]
+            "resources": [
+              "Benefits Guide",
+              "Advantages"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "limitations-pretrained",
             "title": "Limitations and Considerations",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "limitations-study",
-            "resources": ["Limitations Guide", "Considerations"]
+            "resources": [
+              "Limitations Guide",
+              "Considerations"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "popular-ai-models",
             "title": "Popular AI Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "models-survey",
-            "resources": ["Model Survey", "Popular Models"]
+            "resources": [
+              "Model Survey",
+              "Popular Models"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "openai-models",
@@ -193,52 +255,75 @@
             "estimatedHours": 3,
             "project": "openai-models-demo",
             "completedDate": "2025-01-08",
-            "resources": ["OpenAI Models", "Model Documentation"]
+            "resources": [
+              "OpenAI Models",
+              "Model Documentation"
+            ]
           },
           {
             "id": "anthropic-claude",
             "title": "Anthropic Claude",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "claude-demo",
-            "resources": ["Claude Guide", "Anthropic Docs"]
+            "resources": [
+              "Claude Guide",
+              "Anthropic Docs"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "google-gemini",
             "title": "Google Gemini",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "gemini-demo",
-            "resources": ["Gemini Guide", "Google AI"]
+            "resources": [
+              "Gemini Guide",
+              "Google AI"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "hugging-face-models",
             "title": "Hugging Face Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "hf-models",
-            "resources": ["HF Models", "Model Hub"]
+            "resources": [
+              "HF Models",
+              "Model Hub"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "mistral-ai",
             "title": "Mistral AI",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "mistral-demo",
-            "resources": ["Mistral Guide", "Mistral Docs"]
+            "resources": [
+              "Mistral Guide",
+              "Mistral Docs"
+            ],
+            "completedDate": "2026-02-08"
           },
           {
             "id": "cohere",
             "title": "Cohere",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "cohere-demo",
-            "resources": ["Cohere Guide", "Cohere Docs"]
+            "resources": [
+              "Cohere Guide",
+              "Cohere Docs"
+            ],
+            "completedDate": "2026-02-08"
           }
         ]
       },
@@ -254,7 +339,10 @@
             "estimatedHours": 1,
             "project": "platform-overview",
             "completedDate": "2025-01-08",
-            "resources": ["Platform Guide", "OpenAI Docs"]
+            "resources": [
+              "Platform Guide",
+              "OpenAI Docs"
+            ]
           },
           {
             "id": "openai-api",
@@ -264,7 +352,10 @@
             "estimatedHours": 4,
             "project": "ai-chat-application",
             "completedDate": "2025-01-08",
-            "resources": ["API Documentation", "API Examples"]
+            "resources": [
+              "API Documentation",
+              "API Examples"
+            ]
           },
           {
             "id": "chat-completions-api",
@@ -273,7 +364,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chat-api-demo",
-            "resources": ["Chat API Guide", "Completion Examples"]
+            "resources": [
+              "Chat API Guide",
+              "Completion Examples"
+            ]
           },
           {
             "id": "openai-playground",
@@ -282,7 +376,10 @@
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "playground-experiments",
-            "resources": ["Playground Guide", "Parameter Tuning"]
+            "resources": [
+              "Playground Guide",
+              "Parameter Tuning"
+            ]
           },
           {
             "id": "fine-tuning",
@@ -291,7 +388,10 @@
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "fine-tuning-project",
-            "resources": ["Fine-tuning Guide", "Model Customization"]
+            "resources": [
+              "Fine-tuning Guide",
+              "Model Customization"
+            ]
           },
           {
             "id": "managing-tokens",
@@ -301,7 +401,10 @@
             "estimatedHours": 2,
             "project": "token-calculator",
             "completedDate": "2025-01-08",
-            "resources": ["Token Management", "Cost Optimization"]
+            "resources": [
+              "Token Management",
+              "Cost Optimization"
+            ]
           },
           {
             "id": "maximum-tokens",
@@ -310,7 +413,10 @@
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "token-limits",
-            "resources": ["Token Limits", "Model Constraints"]
+            "resources": [
+              "Token Limits",
+              "Model Constraints"
+            ]
           },
           {
             "id": "token-counting",
@@ -319,7 +425,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "token-counter",
-            "resources": ["Token Counting", "Counting Tools"]
+            "resources": [
+              "Token Counting",
+              "Counting Tools"
+            ]
           },
           {
             "id": "pricing-considerations",
@@ -328,7 +437,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 1,
             "project": "pricing-analysis",
-            "resources": ["Pricing Guide", "Cost Analysis"]
+            "resources": [
+              "Pricing Guide",
+              "Cost Analysis"
+            ]
           },
           {
             "id": "writing-prompts",
@@ -337,7 +449,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "prompt-writing",
-            "resources": ["Prompt Writing", "Best Practices"]
+            "resources": [
+              "Prompt Writing",
+              "Best Practices"
+            ]
           }
         ]
       },
@@ -352,7 +467,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "safety-analysis",
-            "resources": ["Safety Guide", "Ethics Documentation"]
+            "resources": [
+              "Safety Guide",
+              "Ethics Documentation"
+            ]
           },
           {
             "id": "prompt-injection-attacks",
@@ -361,7 +479,10 @@
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "injection-demo",
-            "resources": ["Injection Guide", "Security Measures"]
+            "resources": [
+              "Injection Guide",
+              "Security Measures"
+            ]
           },
           {
             "id": "bias-fairness",
@@ -370,7 +491,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "bias-analysis",
-            "resources": ["Bias Guide", "Fairness Principles"]
+            "resources": [
+              "Bias Guide",
+              "Fairness Principles"
+            ]
           },
           {
             "id": "security-privacy",
@@ -379,7 +503,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "security-analysis",
-            "resources": ["Security Guide", "Privacy Best Practices"]
+            "resources": [
+              "Security Guide",
+              "Privacy Best Practices"
+            ]
           },
           {
             "id": "adversarial-testing",
@@ -388,7 +515,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "adversarial-demo",
-            "resources": ["Testing Guide", "Robustness"]
+            "resources": [
+              "Testing Guide",
+              "Robustness"
+            ]
           },
           {
             "id": "openai-moderation-api",
@@ -397,7 +527,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "moderation-demo",
-            "resources": ["Moderation API", "Content Filtering"]
+            "resources": [
+              "Moderation API",
+              "Content Filtering"
+            ]
           },
           {
             "id": "end-user-ids",
@@ -406,7 +539,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 1,
             "project": "user-id-demo",
-            "resources": ["User ID Guide", "Tracking Best Practices"]
+            "resources": [
+              "User ID Guide",
+              "Tracking Best Practices"
+            ]
           },
           {
             "id": "robust-prompt-engineering",
@@ -415,7 +551,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "robust-prompts",
-            "resources": ["Robust Prompts", "Security Engineering"]
+            "resources": [
+              "Robust Prompts",
+              "Security Engineering"
+            ]
           },
           {
             "id": "constraining-outputs",
@@ -424,7 +563,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "constraints-demo",
-            "resources": ["Constraints Guide", "Output Control"]
+            "resources": [
+              "Constraints Guide",
+              "Output Control"
+            ]
           },
           {
             "id": "safety-best-practices",
@@ -433,7 +575,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "safety-implementation",
-            "resources": ["Safety Practices", "Best Practices Guide"]
+            "resources": [
+              "Safety Practices",
+              "Best Practices Guide"
+            ]
           }
         ]
       },
@@ -448,7 +593,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "source-comparison",
-            "resources": ["Source Comparison", "Model Licensing"]
+            "resources": [
+              "Source Comparison",
+              "Model Licensing"
+            ]
           },
           {
             "id": "popular-open-source-models",
@@ -457,7 +605,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "open-source-survey",
-            "resources": ["Open Source Models", "Model Zoo"]
+            "resources": [
+              "Open Source Models",
+              "Model Zoo"
+            ]
           },
           {
             "id": "hugging-face",
@@ -466,7 +617,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "hf-integration",
-            "resources": ["Hugging Face Docs", "HF Guide"]
+            "resources": [
+              "Hugging Face Docs",
+              "HF Guide"
+            ]
           },
           {
             "id": "hugging-face-hub",
@@ -475,7 +629,10 @@
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "hf-hub-demo",
-            "resources": ["HF Hub Guide", "Model Repository"]
+            "resources": [
+              "HF Hub Guide",
+              "Model Repository"
+            ]
           },
           {
             "id": "hugging-face-tasks",
@@ -484,7 +641,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "hf-tasks",
-            "resources": ["HF Tasks", "Task Categories"]
+            "resources": [
+              "HF Tasks",
+              "Task Categories"
+            ]
           },
           {
             "id": "finding-open-source-models",
@@ -493,7 +653,10 @@
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "model-finder",
-            "resources": ["Model Finder", "Search Tools"]
+            "resources": [
+              "Model Finder",
+              "Search Tools"
+            ]
           },
           {
             "id": "using-open-source-models",
@@ -502,7 +665,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "open-source-demo",
-            "resources": ["Usage Guide", "Implementation"]
+            "resources": [
+              "Usage Guide",
+              "Implementation"
+            ]
           },
           {
             "id": "inference-sdk",
@@ -511,7 +677,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "sdk-demo",
-            "resources": ["SDK Guide", "Inference Tools"]
+            "resources": [
+              "SDK Guide",
+              "Inference Tools"
+            ]
           },
           {
             "id": "transformersjs",
@@ -520,7 +689,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "transformersjs-demo",
-            "resources": ["Transformers.js", "Browser AI"]
+            "resources": [
+              "Transformers.js",
+              "Browser AI"
+            ]
           },
           {
             "id": "ollama",
@@ -529,7 +701,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "ollama-setup",
-            "resources": ["Ollama Docs", "Local Models"]
+            "resources": [
+              "Ollama Docs",
+              "Local Models"
+            ]
           },
           {
             "id": "ollama-models",
@@ -538,7 +713,10 @@
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "ollama-models-demo",
-            "resources": ["Ollama Models", "Model Library"]
+            "resources": [
+              "Ollama Models",
+              "Model Library"
+            ]
           },
           {
             "id": "ollama-sdk",
@@ -547,7 +725,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "ollama-sdk-demo",
-            "resources": ["Ollama SDK", "API Integration"]
+            "resources": [
+              "Ollama SDK",
+              "API Integration"
+            ]
           }
         ]
       },
@@ -562,7 +743,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "embedding-explanation",
-            "resources": ["Embedding Basics", "Vector Representations"]
+            "resources": [
+              "Embedding Basics",
+              "Vector Representations"
+            ]
           },
           {
             "id": "semantic-search",
@@ -571,7 +755,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "semantic-search-demo",
-            "resources": ["Semantic Search", "Search Algorithms"]
+            "resources": [
+              "Semantic Search",
+              "Search Algorithms"
+            ]
           },
           {
             "id": "recommendation-systems",
@@ -580,7 +767,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "recommendation-demo",
-            "resources": ["Recommendation Guide", "System Design"]
+            "resources": [
+              "Recommendation Guide",
+              "System Design"
+            ]
           },
           {
             "id": "anomaly-detection",
@@ -589,7 +779,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "anomaly-demo",
-            "resources": ["Anomaly Detection", "Pattern Recognition"]
+            "resources": [
+              "Anomaly Detection",
+              "Pattern Recognition"
+            ]
           },
           {
             "id": "data-classification",
@@ -598,7 +791,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "classification-demo",
-            "resources": ["Classification Guide", "ML Techniques"]
+            "resources": [
+              "Classification Guide",
+              "ML Techniques"
+            ]
           },
           {
             "id": "openai-embeddings-api",
@@ -607,7 +803,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "openai-embeddings-demo",
-            "resources": ["Embeddings API", "OpenAI Docs"]
+            "resources": [
+              "Embeddings API",
+              "OpenAI Docs"
+            ]
           },
           {
             "id": "openai-embedding-models",
@@ -616,7 +815,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "embedding-models-demo",
-            "resources": ["Embedding Models", "Model Comparison"]
+            "resources": [
+              "Embedding Models",
+              "Model Comparison"
+            ]
           },
           {
             "id": "open-source-embeddings",
@@ -625,7 +827,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "open-source-embeddings-demo",
-            "resources": ["Open Source Embeddings", "Model Alternatives"]
+            "resources": [
+              "Open Source Embeddings",
+              "Model Alternatives"
+            ]
           },
           {
             "id": "sentence-transformers",
@@ -634,7 +839,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "sentence-transformers-demo",
-            "resources": ["Sentence Transformers", "Text Processing"]
+            "resources": [
+              "Sentence Transformers",
+              "Text Processing"
+            ]
           }
         ]
       },
@@ -649,7 +857,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "vector-db-purpose",
-            "resources": ["Vector DB Purpose", "Database Concepts"]
+            "resources": [
+              "Vector DB Purpose",
+              "Database Concepts"
+            ]
           },
           {
             "id": "chroma",
@@ -658,7 +869,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chroma-demo",
-            "resources": ["Chroma DB", "Chroma Guide"]
+            "resources": [
+              "Chroma DB",
+              "Chroma Guide"
+            ]
           },
           {
             "id": "pinecone",
@@ -667,7 +881,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "pinecone-demo",
-            "resources": ["Pinecone DB", "Pinecone Docs"]
+            "resources": [
+              "Pinecone DB",
+              "Pinecone Docs"
+            ]
           },
           {
             "id": "weaviate",
@@ -676,7 +893,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "weaviate-demo",
-            "resources": ["Weaviate DB", "Weaviate Guide"]
+            "resources": [
+              "Weaviate DB",
+              "Weaviate Guide"
+            ]
           },
           {
             "id": "faiss",
@@ -685,7 +905,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "faiss-demo",
-            "resources": ["FAISS Library", "Facebook AI"]
+            "resources": [
+              "FAISS Library",
+              "Facebook AI"
+            ]
           },
           {
             "id": "lancedb",
@@ -694,7 +917,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "lancedb-demo",
-            "resources": ["LanceDB", "Lance Documentation"]
+            "resources": [
+              "LanceDB",
+              "Lance Documentation"
+            ]
           },
           {
             "id": "qdrant",
@@ -703,7 +929,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "qdrant-demo",
-            "resources": ["Qdrant DB", "Qdrant Guide"]
+            "resources": [
+              "Qdrant DB",
+              "Qdrant Guide"
+            ]
           },
           {
             "id": "supabase",
@@ -712,7 +941,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "supabase-vector",
-            "resources": ["Supabase", "Vector Extensions"]
+            "resources": [
+              "Supabase",
+              "Vector Extensions"
+            ]
           },
           {
             "id": "mongodb-atlas",
@@ -721,7 +953,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "mongodb-vector",
-            "resources": ["MongoDB Atlas", "Vector Search"]
+            "resources": [
+              "MongoDB Atlas",
+              "Vector Search"
+            ]
           },
           {
             "id": "indexing-embeddings",
@@ -730,7 +965,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "indexing-demo",
-            "resources": ["Indexing Guide", "Search Optimization"]
+            "resources": [
+              "Indexing Guide",
+              "Search Optimization"
+            ]
           },
           {
             "id": "similarity-search",
@@ -739,7 +977,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "similarity-demo",
-            "resources": ["Similarity Search", "Search Algorithms"]
+            "resources": [
+              "Similarity Search",
+              "Search Algorithms"
+            ]
           },
           {
             "id": "vector-search-implementation",
@@ -748,7 +989,10 @@
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "vector-search-app",
-            "resources": ["Implementation Guide", "End-to-End"]
+            "resources": [
+              "Implementation Guide",
+              "End-to-End"
+            ]
           }
         ]
       },
@@ -763,7 +1007,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-usecases-demo",
-            "resources": ["RAG Use Cases", "Application Examples"]
+            "resources": [
+              "RAG Use Cases",
+              "Application Examples"
+            ]
           },
           {
             "id": "rag-vs-fine-tuning",
@@ -772,7 +1019,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-comparison",
-            "resources": ["RAG vs Fine-tuning", "Comparison Guide"]
+            "resources": [
+              "RAG vs Fine-tuning",
+              "Comparison Guide"
+            ]
           },
           {
             "id": "chunking",
@@ -781,7 +1031,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chunking-demo",
-            "resources": ["Chunking Guide", "Text Processing"]
+            "resources": [
+              "Chunking Guide",
+              "Text Processing"
+            ]
           },
           {
             "id": "embedding-rag",
@@ -790,7 +1043,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-embedding",
-            "resources": ["RAG Embeddings", "Vector Creation"]
+            "resources": [
+              "RAG Embeddings",
+              "Vector Creation"
+            ]
           },
           {
             "id": "retrieval-process",
@@ -799,7 +1055,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "retrieval-demo",
-            "resources": ["Retrieval Process", "Search Algorithms"]
+            "resources": [
+              "Retrieval Process",
+              "Search Algorithms"
+            ]
           },
           {
             "id": "generation",
@@ -808,7 +1067,10 @@
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "generation-demo",
-            "resources": ["Generation Process", "Output Creation"]
+            "resources": [
+              "Generation Process",
+              "Output Creation"
+            ]
           },
           {
             "id": "implementing-rag",
@@ -817,7 +1079,10 @@
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "rag-system",
-            "resources": ["RAG Implementation", "End-to-End Guide"]
+            "resources": [
+              "RAG Implementation",
+              "End-to-End Guide"
+            ]
           },
           {
             "id": "using-sdks-directly",
@@ -826,7 +1091,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "sdk-rag",
-            "resources": ["SDK Implementation", "Direct APIs"]
+            "resources": [
+              "SDK Implementation",
+              "Direct APIs"
+            ]
           },
           {
             "id": "langchain",
@@ -835,7 +1103,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "langchain-rag",
-            "resources": ["LangChain RAG", "Framework Guide"]
+            "resources": [
+              "LangChain RAG",
+              "Framework Guide"
+            ]
           },
           {
             "id": "llamaindex",
@@ -844,7 +1115,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "llamaindex-rag",
-            "resources": ["LlamaIndex RAG", "Framework Guide"]
+            "resources": [
+              "LlamaIndex RAG",
+              "Framework Guide"
+            ]
           },
           {
             "id": "openai-assistants-api",
@@ -853,7 +1127,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "assistants-api",
-            "resources": ["Assistants API", "OpenAI Docs"]
+            "resources": [
+              "Assistants API",
+              "OpenAI Docs"
+            ]
           },
           {
             "id": "replicate",
@@ -862,7 +1139,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "replicate-rag",
-            "resources": ["Replicate Platform", "Model Deployment"]
+            "resources": [
+              "Replicate Platform",
+              "Model Deployment"
+            ]
           }
         ]
       },
@@ -877,7 +1157,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "agent-usecases",
-            "resources": ["Agent Use Cases", "Application Examples"]
+            "resources": [
+              "Agent Use Cases",
+              "Application Examples"
+            ]
           },
           {
             "id": "react-prompting",
@@ -886,7 +1169,10 @@
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "react-demo",
-            "resources": ["ReAct Prompting", "Reasoning Framework"]
+            "resources": [
+              "ReAct Prompting",
+              "Reasoning Framework"
+            ]
           },
           {
             "id": "manual-implementation",
@@ -895,7 +1181,10 @@
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "manual-agent",
-            "resources": ["Manual Implementation", "Custom Agents"]
+            "resources": [
+              "Manual Implementation",
+              "Custom Agents"
+            ]
           },
           {
             "id": "openai-functions-tools",
@@ -904,7 +1193,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "functions-tools",
-            "resources": ["Functions/Tools", "OpenAI Docs"]
+            "resources": [
+              "Functions/Tools",
+              "OpenAI Docs"
+            ]
           },
           {
             "id": "assistant-api-agents",
@@ -913,7 +1205,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "assistant-agent",
-            "resources": ["Assistant API", "Agent Framework"]
+            "resources": [
+              "Assistant API",
+              "Agent Framework"
+            ]
           },
           {
             "id": "building-ai-agents",
@@ -922,7 +1217,10 @@
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "ai-agent-system",
-            "resources": ["Agent Building", "System Design"]
+            "resources": [
+              "Agent Building",
+              "System Design"
+            ]
           },
           {
             "id": "rag-as-agent-alternative",
@@ -931,7 +1229,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-agent-alternative",
-            "resources": ["RAG Alternative", "Agent Design"]
+            "resources": [
+              "RAG Alternative",
+              "Agent Design"
+            ]
           }
         ]
       },
@@ -946,7 +1247,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "image-understanding-demo",
-            "resources": ["Image Understanding", "Vision AI"]
+            "resources": [
+              "Image Understanding",
+              "Vision AI"
+            ]
           },
           {
             "id": "image-generation",
@@ -955,7 +1259,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "image-generation-demo",
-            "resources": ["Image Generation", "Creative AI"]
+            "resources": [
+              "Image Generation",
+              "Creative AI"
+            ]
           },
           {
             "id": "video-understanding",
@@ -964,7 +1271,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "video-understanding-demo",
-            "resources": ["Video Understanding", "Video AI"]
+            "resources": [
+              "Video Understanding",
+              "Video AI"
+            ]
           },
           {
             "id": "audio-processing",
@@ -973,7 +1283,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "audio-processing-demo",
-            "resources": ["Audio Processing", "Sound AI"]
+            "resources": [
+              "Audio Processing",
+              "Sound AI"
+            ]
           },
           {
             "id": "text-to-speech",
@@ -982,7 +1295,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "tts-demo",
-            "resources": ["Text-to-Speech", "Voice Synthesis"]
+            "resources": [
+              "Text-to-Speech",
+              "Voice Synthesis"
+            ]
           },
           {
             "id": "speech-to-text",
@@ -991,7 +1307,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "stt-demo",
-            "resources": ["Speech-to-Text", "Voice Recognition"]
+            "resources": [
+              "Speech-to-Text",
+              "Voice Recognition"
+            ]
           },
           {
             "id": "openai-vision-api",
@@ -1000,7 +1319,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "vision-api-demo",
-            "resources": ["Vision API", "GPT-4V"]
+            "resources": [
+              "Vision API",
+              "GPT-4V"
+            ]
           },
           {
             "id": "dalle-api",
@@ -1009,7 +1331,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "dalle-demo",
-            "resources": ["DALL-E API", "Image Generation"]
+            "resources": [
+              "DALL-E API",
+              "Image Generation"
+            ]
           },
           {
             "id": "whisper-api",
@@ -1018,7 +1343,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "whisper-demo",
-            "resources": ["Whisper API", "Speech Recognition"]
+            "resources": [
+              "Whisper API",
+              "Speech Recognition"
+            ]
           },
           {
             "id": "langchain-multimodal",
@@ -1027,7 +1355,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "langchain-multimodal-demo",
-            "resources": ["LangChain Multimodal", "Framework Guide"]
+            "resources": [
+              "LangChain Multimodal",
+              "Framework Guide"
+            ]
           },
           {
             "id": "llamaindex-multimodal",
@@ -1036,7 +1367,10 @@
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "llamaindex-multimodal-demo",
-            "resources": ["LlamaIndex Multimodal", "Framework Guide"]
+            "resources": [
+              "LlamaIndex Multimodal",
+              "Framework Guide"
+            ]
           }
         ]
       },
@@ -1051,7 +1385,10 @@
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "ai-editor-setup",
-            "resources": ["AI Editors", "Code Tools"]
+            "resources": [
+              "AI Editors",
+              "Code Tools"
+            ]
           },
           {
             "id": "code-completion-tools",
@@ -1060,7 +1397,10 @@
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "completion-tools",
-            "resources": ["Completion Tools", "Productivity"]
+            "resources": [
+              "Completion Tools",
+              "Productivity"
+            ]
           }
         ]
       },
@@ -1075,7 +1415,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 10,
             "project": "prompt-engineering-deep",
-            "resources": ["Prompt Engineering Track", "Advanced Techniques"]
+            "resources": [
+              "Prompt Engineering Track",
+              "Advanced Techniques"
+            ]
           },
           {
             "id": "ai-data-scientist-track",
@@ -1084,7 +1427,10 @@
             "difficulty": "advanced",
             "estimatedHours": 20,
             "project": "data-scientist-path",
-            "resources": ["Data Scientist Track", "Career Path"]
+            "resources": [
+              "Data Scientist Track",
+              "Career Path"
+            ]
           },
           {
             "id": "data-analyst-track",
@@ -1093,7 +1439,10 @@
             "difficulty": "intermediate",
             "estimatedHours": 15,
             "project": "data-analyst-path",
-            "resources": ["Data Analyst Track", "Analytics Path"]
+            "resources": [
+              "Data Analyst Track",
+              "Analytics Path"
+            ]
           }
         ]
       }
@@ -1103,7 +1452,9 @@
         "id": "first-api-call",
         "title": "🎉 First API Call",
         "description": "Successfully make your first OpenAI API call",
-        "relatedTopics": ["openai-api"],
+        "relatedTopics": [
+          "openai-api"
+        ],
         "achieved": true,
         "achievedDate": "2025-01-08"
       },
@@ -1111,7 +1462,10 @@
         "id": "chat-application",
         "title": "💬 Chat Application Complete",
         "description": "Build a complete chat application",
-        "relatedTopics": ["openai-api", "managing-tokens"],
+        "relatedTopics": [
+          "openai-api",
+          "managing-tokens"
+        ],
         "achieved": true,
         "achievedDate": "2025-01-08"
       },
@@ -1119,42 +1473,106 @@
         "id": "introduction-complete",
         "title": "🚀 Introduction Master",
         "description": "Complete all introduction topics",
-        "relatedTopics": ["what-is-ai-engineer", "ai-engineer-vs-ml-engineer", "roles-responsibilities", "impact-product-development", "ai-vs-agi", "common-terminology"],
-        "achieved": false
+        "relatedTopics": [
+          "what-is-ai-engineer",
+          "ai-engineer-vs-ml-engineer",
+          "roles-responsibilities",
+          "impact-product-development",
+          "ai-vs-agi",
+          "common-terminology"
+        ],
+        "achieved": true,
+        "achievedDate": "2026-02-08"
       },
       {
         "id": "core-concepts-master",
         "title": "🧠 Core Concepts Master",
         "description": "Complete all core LLM concepts",
-        "relatedTopics": ["llms", "inference", "training", "embeddings", "vector-databases", "rag", "prompt-engineering", "ai-agents"],
+        "relatedTopics": [
+          "llms",
+          "inference",
+          "training",
+          "embeddings",
+          "vector-databases",
+          "rag",
+          "prompt-engineering",
+          "ai-agents"
+        ],
         "achieved": false
       },
       {
         "id": "openai-platform-expert",
         "title": "🔵 OpenAI Platform Expert",
         "description": "Complete the entire OpenAI Platform section",
-        "relatedTopics": ["openai-platform", "openai-api", "chat-completions-api", "openai-playground", "fine-tuning", "managing-tokens", "maximum-tokens", "token-counting", "pricing-considerations", "writing-prompts"],
+        "relatedTopics": [
+          "openai-platform",
+          "openai-api",
+          "chat-completions-api",
+          "openai-playground",
+          "fine-tuning",
+          "managing-tokens",
+          "maximum-tokens",
+          "token-counting",
+          "pricing-considerations",
+          "writing-prompts"
+        ],
         "achieved": false
       },
       {
         "id": "safety-certified",
         "title": "🛡️ AI Safety Certified",
         "description": "Complete AI safety and ethics section",
-        "relatedTopics": ["understanding-ai-safety", "prompt-injection-attacks", "bias-fairness", "security-privacy", "adversarial-testing", "openai-moderation-api", "end-user-ids", "robust-prompt-engineering", "constraining-outputs", "safety-best-practices"],
+        "relatedTopics": [
+          "understanding-ai-safety",
+          "prompt-injection-attacks",
+          "bias-fairness",
+          "security-privacy",
+          "adversarial-testing",
+          "openai-moderation-api",
+          "end-user-ids",
+          "robust-prompt-engineering",
+          "constraining-outputs",
+          "safety-best-practices"
+        ],
         "achieved": false
       },
       {
         "id": "multimodal-expert",
         "title": "🎨 Multimodal Expert",
         "description": "Complete all multimodal AI topics",
-        "relatedTopics": ["image-understanding", "image-generation", "video-understanding", "audio-processing", "text-to-speech", "speech-to-text", "openai-vision-api", "dalle-api", "whisper-api", "langchain-multimodal", "llamaindex-multimodal"],
+        "relatedTopics": [
+          "image-understanding",
+          "image-generation",
+          "video-understanding",
+          "audio-processing",
+          "text-to-speech",
+          "speech-to-text",
+          "openai-vision-api",
+          "dalle-api",
+          "whisper-api",
+          "langchain-multimodal",
+          "llamaindex-multimodal"
+        ],
         "achieved": false
       },
       {
         "id": "ai-engineer-ready",
         "title": "🚀 AI Engineer Ready",
         "description": "Complete the entire roadmap",
-        "relatedTopics": ["introduction", "core-llm-concepts", "working-with-pretrained-models", "openai-platform", "ai-safety-ethics", "open-source-ai", "embeddings", "vector-databases", "rag", "ai-agents", "multimodal-ai", "development-tools"],
+        "relatedTopics": [
+          "introduction",
+          "core-llm-concepts",
+          "working-with-pretrained-models",
+          "openai-platform",
+          "ai-safety-ethics",
+          "open-source-ai",
+          "embeddings",
+          "vector-databases",
+          "rag",
+          "ai-agents",
+          "multimodal-ai",
+          "development-tools"
+        ],
         "achieved": false
       }
     ]
