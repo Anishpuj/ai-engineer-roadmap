@@ -27,10 +27,10 @@ function saveRoadmap(data) {
   }
 }
 
-// Calculate progress for a category
-function calculateCategoryProgress(category) {
-  const totalTopics = category.topics.length;
-  const completedTopics = category.topics.filter(topic => 
+// Calculate progress for a section
+function calculateSectionProgress(section) {
+  const totalTopics = section.topics.length;
+  const completedTopics = section.topics.filter(topic => 
     topic.status === 'completed'
   ).length;
   return totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
@@ -38,21 +38,22 @@ function calculateCategoryProgress(category) {
 
 // Calculate overall progress
 function calculateOverallProgress(roadmap) {
-  const totalTopics = roadmap.categories.reduce((sum, cat) => sum + cat.topics.length, 0);
-  const completedTopics = roadmap.categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(topic => topic.status === 'completed').length, 0
+  const totalTopics = roadmap.sections.reduce((sum, section) => sum + section.topics.length, 0);
+  const completedTopics = roadmap.sections.reduce((sum, section) => 
+    sum + section.topics.filter(topic => topic.status === 'completed').length, 0
   );
   return totalTopics > 0 ? Math.round((completedTopics / totalTopics) * 100) : 0;
 }
 
 // Update topic status
 function updateTopicStatus(topicId, status, completedDate = null) {
-  const roadmap = loadRoadmap();
+  const data = loadRoadmap();
+  const roadmap = data.roadmap;
   
   // Find and update the topic
   let topicFound = false;
-  roadmap.categories.forEach(category => {
-    const topic = category.topics.find(t => t.id === topicId);
+  roadmap.sections.forEach(section => {
+    const topic = section.topics.find(t => t.id === topicId);
     if (topic) {
       topic.status = status;
       if (status === 'completed' && !topic.completedDate) {
@@ -60,8 +61,8 @@ function updateTopicStatus(topicId, status, completedDate = null) {
       }
       topicFound = true;
       
-      // Update category progress
-      category.progress = calculateCategoryProgress(category);
+      // Update section progress
+      section.progress = calculateSectionProgress(section);
     }
   });
   
@@ -77,7 +78,7 @@ function updateTopicStatus(topicId, status, completedDate = null) {
   // Check for milestones
   checkMilestones(roadmap);
   
-  saveRoadmap(roadmap);
+  saveRoadmap(data);
   console.log(`📊 Topic '${topicId}' marked as '${status}'`);
   console.log(`🎯 Overall Progress: ${roadmap.overallProgress}%`);
 }
@@ -91,8 +92,8 @@ function checkMilestones(roadmap) {
     
     // Check if all related topics are completed
     const allTopicsCompleted = milestone.relatedTopics.every(topicId => {
-      for (const category of roadmap.categories) {
-        const topic = category.topics.find(t => t.id === topicId);
+      for (const section of roadmap.sections) {
+        const topic = section.topics.find(t => t.id === topicId);
         if (topic && topic.status === 'completed') {
           return true;
         }
@@ -110,15 +111,16 @@ function checkMilestones(roadmap) {
 
 // List all topics
 function listTopics() {
-  const roadmap = loadRoadmap();
+  const data = loadRoadmap();
+  const roadmap = data.roadmap;
   
   console.log('\n🎯 AI Engineer Roadmap - All Topics\n');
   
-  roadmap.categories.forEach(category => {
-    console.log(`\n${category.title} (${category.progress}% complete)`);
+  roadmap.sections.forEach(section => {
+    console.log(`\n${section.section} (${section.progress || 0}% complete)`);
     console.log(`${'='.repeat(50)}`);
     
-    category.topics.forEach(topic => {
+    section.topics.forEach(topic => {
       const statusIcon = getStatusIcon(topic.status);
       const difficultyIcon = getDifficultyIcon(topic.difficulty);
       console.log(`  ${statusIcon} ${difficultyIcon} ${topic.title}`);
@@ -160,21 +162,21 @@ function generateReport() {
   console.log(`Overall Progress: ${roadmap.overallProgress}%`);
   console.log(`Last Updated: ${roadmap.lastUpdated}`);
   
-  const completedTopics = roadmap.categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.status === 'completed').length, 0
+  const completedTopics = roadmap.sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.status === 'completed').length, 0
   );
-  const totalTopics = roadmap.categories.reduce((sum, cat) => sum + cat.topics.length, 0);
+  const totalTopics = roadmap.sections.reduce((sum, section) => sum + section.topics.length, 0);
   
   console.log(`Completed Topics: ${completedTopics}/${totalTopics}`);
   
   const achievedMilestones = roadmap.milestones.filter(m => m.achieved).length;
   console.log(`Achieved Milestones: ${achievedMilestones}/${roadmap.milestones.length}`);
   
-  // Category breakdown
-  console.log('\n📈 Category Progress:');
-  roadmap.categories.forEach(category => {
-    const progressBar = generateProgressBar(category.progress);
-    console.log(`${category.title}: ${progressBar} ${category.progress}%`);
+  // Section breakdown
+  console.log('\n📈 Section Progress:');
+  roadmap.sections.forEach(section => {
+    const progressBar = generateProgressBar(section.progress || 0);
+    console.log(`${section.section}: ${progressBar} ${section.progress || 0}%`);
   });
 }
 

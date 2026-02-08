@@ -45,18 +45,18 @@ function getDifficultyIcon(difficulty) {
 }
 
 // Generate category table
-function generateCategoryTable(categories) {
-  let table = '| Category | Progress | Topics | Status |\n';
-  table += '|----------|----------|--------|---------|\n';
+function generateCategoryTable(sections) {
+  let table = '| Section | Progress | Topics | Status |\n';
+  table += '|---------|----------|--------|---------|\n';
   
-  categories.forEach(category => {
-    const progress = generateProgressBar(category.progress);
-    const completedCount = category.topics.filter(t => t.status === 'completed').length;
-    const totalCount = category.topics.length;
-    const status = category.progress === 0 ? '⭕ Not Started' : 
-                   category.progress === 100 ? '✅ Complete' : '🔄 In Progress';
+  sections.forEach(section => {
+    const progress = generateProgressBar(section.progress || 0);
+    const completedCount = section.topics.filter(t => t.status === 'completed').length;
+    const totalCount = section.topics.length;
+    const status = (section.progress || 0) === 0 ? '⭕ Not Started' : 
+                   (section.progress || 0) === 100 ? '✅ Complete' : '🔄 In Progress';
     
-    table += `| ${category.title} | \`${progress}\` ${category.progress}% | ${completedCount}/${totalCount} | ${status} |\n`;
+    table += `| ${section.section} | \`${progress}\` ${(section.progress || 0)}% | ${completedCount}/${totalCount} | ${status} |\n`;
   });
   
   return table;
@@ -93,16 +93,16 @@ function generateMilestones(milestones) {
 }
 
 // Generate learning journey section
-function generateLearningJourney(categories) {
+function generateLearningJourney(sections) {
   let section = '## 📚 Learning Journey\n\n';
   
-  categories.forEach(category => {
-    if (category.progress === 0) return; // Skip empty categories
+  sections.forEach(sectionData => {
+    if ((sectionData.progress || 0) === 0) return; // Skip empty sections
     
-    section += `### ${category.title} (${category.progress}% Complete)\n\n`;
+    section += `### ${sectionData.section} (${sectionData.progress || 0}% Complete)\n\n`;
     
-    const completedTopics = category.topics.filter(t => t.status === 'completed');
-    const upcomingTopics = category.topics.filter(t => t.status !== 'completed');
+    const completedTopics = sectionData.topics.filter(t => t.status === 'completed');
+    const upcomingTopics = sectionData.topics.filter(t => t.status !== 'completed');
     
     if (completedTopics.length > 0) {
       section += '#### ✅ Completed Topics\n';
@@ -137,42 +137,42 @@ function generateLearningJourney(categories) {
 }
 
 // Generate statistics section
-function generateStatistics(categories, milestones) {
-  const totalTopics = categories.reduce((sum, cat) => sum + cat.topics.length, 0);
-  const completedTopics = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.status === 'completed').length, 0
+function generateStatistics(sections, milestones) {
+  const totalTopics = sections.reduce((sum, section) => sum + section.topics.length, 0);
+  const completedTopics = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.status === 'completed').length, 0
   );
-  const inProgressTopics = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.status === 'in-progress').length, 0
+  const inProgressTopics = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.status === 'in-progress').length, 0
   );
   const notStartedTopics = totalTopics - completedTopics - inProgressTopics;
   
-  const completedHours = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.status === 'completed')
+  const completedHours = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.status === 'completed')
       .reduce((topicSum, topic) => topicSum + (topic.estimatedHours || 0), 0), 0
   );
-  const totalHours = categories.reduce((sum, cat) => 
-    sum + cat.topics.reduce((topicSum, topic) => topicSum + (topic.estimatedHours || 0), 0), 0
+  const totalHours = sections.reduce((sum, section) => 
+    sum + section.topics.reduce((topicSum, topic) => topicSum + (topic.estimatedHours || 0), 0), 0
   );
   
-  const beginnerTopics = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'beginner').length, 0
+  const beginnerTopics = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'beginner').length, 0
   );
-  const intermediateTopics = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'intermediate').length, 0
+  const intermediateTopics = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'intermediate').length, 0
   );
-  const advancedTopics = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'advanced').length, 0
+  const advancedTopics = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'advanced').length, 0
   );
   
-  const beginnerCompleted = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'beginner' && t.status === 'completed').length, 0
+  const beginnerCompleted = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'beginner' && t.status === 'completed').length, 0
   );
-  const intermediateCompleted = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'intermediate' && t.status === 'completed').length, 0
+  const intermediateCompleted = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'intermediate' && t.status === 'completed').length, 0
   );
-  const advancedCompleted = categories.reduce((sum, cat) => 
-    sum + cat.topics.filter(t => t.difficulty === 'advanced' && t.status === 'completed').length, 0
+  const advancedCompleted = sections.reduce((sum, section) => 
+    sum + section.topics.filter(t => t.difficulty === 'advanced' && t.status === 'completed').length, 0
   );
   
   let section = '## 📈 Statistics\n\n';
@@ -196,11 +196,11 @@ function generateStatistics(categories, milestones) {
 }
 
 // Generate topic IDs reference
-function generateTopicReference(categories) {
+function generateTopicReference(sections) {
   let section = '### Topic IDs Reference\n';
   
-  categories.forEach(category => {
-    category.topics.forEach(topic => {
+  sections.forEach(sectionData => {
+    sectionData.topics.forEach(topic => {
       section += `- \`${topic.id}\` - ${topic.title}\n`;
     });
   });
@@ -226,7 +226,7 @@ function generateReadme() {
 ${generateProgressBar(roadmap.overallProgress)} ${roadmap.overallProgress}%
 \`\`\`
 
-**🎯 ${roadmap.categories.reduce((sum, cat) => sum + cat.topics.filter(t => t.status === 'completed').length, 0)}/${roadmap.categories.reduce((sum, cat) => sum + cat.topics.length, 0)} topics completed**  
+**🎯 ${roadmap.sections.reduce((sum, section) => sum + section.topics.filter(t => t.status === 'completed').length, 0)}/${roadmap.sections.reduce((sum, section) => sum + section.topics.length, 0)} topics completed**  
 **🏆 ${roadmap.milestones.filter(m => m.achieved).length}/${roadmap.milestones.length} milestones achieved**  
 **📅 Last Updated: ${roadmap.lastUpdated}**
 
@@ -234,7 +234,7 @@ ${generateProgressBar(roadmap.overallProgress)} ${roadmap.overallProgress}%
 
 ## 🗺️ Roadmap Overview
 
-${generateCategoryTable(roadmap.categories)}
+${generateCategoryTable(roadmap.sections)}
 
 ---
 
@@ -242,7 +242,7 @@ ${generateMilestones(roadmap.milestones)}
 
 ---
 
-${generateLearningJourney(roadmap.categories)}
+${generateLearningJourney(roadmap.sections)}
 
 ---
 
@@ -251,38 +251,38 @@ ${generateLearningJourney(roadmap.categories)}
 ### Update Your Progress
 \`\`\`bash
 # Mark a topic as completed
-node update-progress.js update topic-id completed
+node update-progress.cjs update topic-id completed
 
 # Mark a topic as in progress
-node update-progress.js update topic-id in-progress
+node update-progress.cjs update topic-id in-progress
 
 # View all topics
-node update-progress.js list
+node update-progress.cjs list
 
 # Generate progress report
-node update-progress.js report
+node update-progress.cjs report
 
 # View milestones
-node update-progress.js milestones
+node update-progress.cjs milestones
 \`\`\`
 
-${generateTopicReference(roadmap.categories)}
+${generateTopicReference(roadmap.sections)}
 
 ---
 
-${generateStatistics(roadmap.categories, roadmap.milestones)}
+${generateStatistics(roadmap.sections, roadmap.milestones)}
 
 ---
 
 ## 🎯 Next Steps
 
 1. **Continue with OpenAI Platform**:
-   - Start with **Prompt Engineering** (6 hours)
-   - Move to **Embeddings API** (4 hours)
+   - Start with **Chat Completions API** (3 hours)
+   - Move to **OpenAI Playground** (1 hour)
 
-2. **Explore Open Source AI**:
-   - Learn **Hugging Face Basics** (3 hours)
-   - Try **Ollama for Local Models** (4 hours)
+2. **Explore Core LLM Concepts**:
+   - Learn **LLMs** fundamentals (2 hours)
+   - Try **Inference** techniques (3 hours)
 
 3. **Build Advanced Projects**:
    - Create a **RAG System** with vector databases
@@ -297,13 +297,12 @@ ${generateStatistics(roadmap.categories, roadmap.milestones)}
 Ai-EngineerRoadmap.sh/
 ├── README.md                    # This file - Dynamic progress overview
 ├── roadmap-data.json            # Progress data (auto-updated)
-├── update-progress.js           # Progress tracking CLI tool
-├── generate-readme.js           # README generator (auto-updates)
+├── update-progress.cjs           # Progress tracking CLI tool
+├── generate-readme.cjs           # README generator (auto-updates)
 ├── ai-engineer.pdf             # Original roadmap reference
 ├── projects/                   # Your completed projects
 │   ├── ai-chat-application/    # ✅ Chat app with OpenAI
-│   ├── prompt-playground/      # 🔄 Prompt engineering experiments
-│   ├── semantic-search/        # ⭕ Vector search implementation
+│   ├── ai-engineer-research/   # 🔄 Role analysis
 │   └── ...
 └── resources/                  # Learning resources and notes
     ├── articles/
@@ -326,14 +325,14 @@ Ai-EngineerRoadmap.sh/
 npm install
 
 # Update your first completed topic
-node update-progress.js update openai-api-basics completed
+node update-progress.cjs update what-is-ai-engineer completed
 
 # Generate your progress report
-node update-progress.js report
+node update-progress.cjs report
 
 # Commit and push to GitHub
 git add .
-git commit -m "Progress update: Completed OpenAI API basics"
+git commit -m "Progress update: Completed AI Engineer introduction"
 git push origin main
 \`\`\`
 
@@ -379,7 +378,7 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
   fs.writeFileSync(README_FILE, readme);
   console.log('✅ README.md generated successfully!');
   console.log(`📊 Overall Progress: ${roadmap.overallProgress}%`);
-  console.log(`🎯 Topics Completed: ${roadmap.categories.reduce((sum, cat) => sum + cat.topics.filter(t => t.status === 'completed').length, 0)}/${roadmap.categories.reduce((sum, cat) => sum + cat.topics.length, 0)}`);
+  console.log(`🎯 Topics Completed: ${roadmap.sections.reduce((sum, section) => sum + section.topics.filter(t => t.status === 'completed').length, 0)}/${roadmap.sections.reduce((sum, section) => sum + section.topics.length, 0)}`);
 }
 
 // Auto-update README after progress updates

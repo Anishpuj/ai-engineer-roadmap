@@ -4,17 +4,14 @@
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2025-01-08",
     "overallProgress": 0,
-    "categories": [
+    "sections": [
       {
-        "id": "introduction",
-        "title": "🚀 Introduction",
-        "description": "Understanding AI Engineering and core concepts",
+        "section": "Introduction",
         "progress": 0,
         "topics": [
           {
             "id": "what-is-ai-engineer",
-            "title": "What is an AI Engineer?",
-            "description": "Understanding the role and responsibilities",
+            "title": "What is an AI Engineer",
             "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
@@ -23,87 +20,264 @@
             "resources": ["AI Engineer vs ML Engineer", "Roles and Responsibilities"]
           },
           {
+            "id": "ai-engineer-vs-ml-engineer",
+            "title": "AI Engineer vs ML Engineer",
+            "status": "completed",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "role-comparison",
+            "completedDate": "2025-01-08",
+            "resources": ["Role Comparison", "Career Paths"]
+          },
+          {
+            "id": "roles-responsibilities",
+            "title": "Roles and Responsibilities",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "responsibility-analysis",
+            "resources": ["Job Descriptions", "Industry Analysis"]
+          },
+          {
+            "id": "impact-product-development",
+            "title": "Impact on Product Development",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "impact-study",
+            "resources": ["Product Development", "AI Integration"]
+          },
+          {
             "id": "ai-vs-agi",
             "title": "AI vs AGI",
-            "description": "Understanding the difference between AI and AGI",
             "status": "not-started",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "ai-agi-analysis",
-            "resources": ["AI Fundamentals", "AGI Research Papers"]
+            "resources": ["AI Fundamentals", "AGI Research"]
           },
           {
             "id": "common-terminology",
             "title": "Common Terminology",
-            "description": "LLMs, Inference, Training, Embeddings, Vector Databases, AI Agents, RAG",
             "status": "not-started",
             "difficulty": "beginner",
-            "estimatedHours": 3,
+            "estimatedHours": 2,
             "project": "terminology-guide",
-            "resources": ["AI Glossary", "Technical Documentation"]
+            "resources": ["AI Glossary", "Technical Terms"]
           }
         ]
       },
       {
-        "id": "pretrained-models",
-        "title": "🤖 Pre-trained Models",
-        "description": "Understanding and using pre-trained models",
+        "section": "Core LLM Concepts",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "llms",
+            "title": "LLMs",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "llm-overview",
+            "resources": ["LLM Guide", "Model Architecture"]
+          },
+          {
+            "id": "inference",
+            "title": "Inference",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "inference-demo",
+            "resources": ["Inference Guide", "Model Deployment"]
+          },
+          {
+            "id": "training",
+            "title": "Training",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 8,
+            "project": "training-basics",
+            "resources": ["Training Guide", "Model Training"]
+          },
+          {
+            "id": "embeddings",
+            "title": "Embeddings",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "embedding-basics",
+            "resources": ["Embedding Guide", "Vector Representations"]
+          },
+          {
+            "id": "vector-databases",
+            "title": "Vector Databases",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 4,
+            "project": "vector-db-intro",
+            "resources": ["Vector DB Guide", "Database Concepts"]
+          },
+          {
+            "id": "rag",
+            "title": "RAG",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 4,
+            "project": "rag-intro",
+            "resources": ["RAG Guide", "Retrieval Concepts"]
+          },
+          {
+            "id": "prompt-engineering",
+            "title": "Prompt Engineering",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "prompt-basics",
+            "resources": ["Prompt Guide", "Engineering Techniques"]
+          },
+          {
+            "id": "ai-agents",
+            "title": "AI Agents",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 5,
+            "project": "agent-intro",
+            "resources": ["Agent Guide", "Autonomous Systems"]
+          }
+        ]
+      },
+      {
+        "section": "Working with Pretrained Models",
         "progress": 0,
         "topics": [
           {
             "id": "using-pretrained-models",
             "title": "Using Pre-trained Models",
-            "description": "Benefits, limitations, and considerations",
             "status": "not-started",
             "difficulty": "beginner",
             "estimatedHours": 2,
-            "project": "pretrained-model-demo",
-            "resources": ["Model Documentation", "Best Practices Guide"]
+            "project": "pretrained-demo",
+            "resources": ["Pretrained Guide", "Model Usage"]
           },
           {
-            "id": "open-vs-closed-source",
-            "title": "Open vs Closed Source Models",
-            "description": "Understanding the differences and trade-offs",
+            "id": "benefits-pretrained",
+            "title": "Benefits of Pre-trained Models",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "benefits-analysis",
+            "resources": ["Benefits Guide", "Advantages"]
+          },
+          {
+            "id": "limitations-pretrained",
+            "title": "Limitations and Considerations",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 2,
-            "project": "model-comparison",
-            "resources": ["Open Source Models", "Closed Source Models"]
+            "project": "limitations-study",
+            "resources": ["Limitations Guide", "Considerations"]
+          },
+          {
+            "id": "popular-ai-models",
+            "title": "Popular AI Models",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "models-survey",
+            "resources": ["Model Survey", "Popular Models"]
+          },
+          {
+            "id": "openai-models",
+            "title": "OpenAI Models",
+            "status": "completed",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "openai-models-demo",
+            "completedDate": "2025-01-08",
+            "resources": ["OpenAI Models", "Model Documentation"]
+          },
+          {
+            "id": "anthropic-claude",
+            "title": "Anthropic Claude",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "claude-demo",
+            "resources": ["Claude Guide", "Anthropic Docs"]
+          },
+          {
+            "id": "google-gemini",
+            "title": "Google Gemini",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "gemini-demo",
+            "resources": ["Gemini Guide", "Google AI"]
+          },
+          {
+            "id": "hugging-face-models",
+            "title": "Hugging Face Models",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "hf-models",
+            "resources": ["HF Models", "Model Hub"]
+          },
+          {
+            "id": "mistral-ai",
+            "title": "Mistral AI",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "mistral-demo",
+            "resources": ["Mistral Guide", "Mistral Docs"]
+          },
+          {
+            "id": "cohere",
+            "title": "Cohere",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "cohere-demo",
+            "resources": ["Cohere Guide", "Cohere Docs"]
           }
         ]
       },
       {
-        "id": "openai-platform",
-        "title": "🔵 OpenAI Platform",
-        "description": "Mastering OpenAI's ecosystem and APIs",
-        "progress": 50,
+        "section": "OpenAI Platform",
+        "progress": 20,
         "topics": [
+          {
+            "id": "openai-platform",
+            "title": "OpenAI Platform",
+            "status": "completed",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "platform-overview",
+            "completedDate": "2025-01-08",
+            "resources": ["Platform Guide", "OpenAI Docs"]
+          },
           {
             "id": "openai-api",
             "title": "OpenAI API",
-            "description": "Chat Completions API, Writing Prompts, Maximum Tokens",
             "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "ai-chat-application",
             "completedDate": "2025-01-08",
-            "resources": ["OpenAI API Docs", "API Examples"]
+            "resources": ["API Documentation", "API Examples"]
           },
           {
-            "id": "token-management",
-            "title": "Token Management",
-            "description": "Token Counting, Pricing Considerations, Managing Tokens",
-            "status": "completed",
+            "id": "chat-completions-api",
+            "title": "Chat Completions API",
+            "status": "not-started",
             "difficulty": "intermediate",
-            "estimatedHours": 2,
-            "project": "token-calculator",
-            "completedDate": "2025-01-08",
-            "resources": ["Token Pricing", "Token Counting Guide"]
+            "estimatedHours": 3,
+            "project": "chat-api-demo",
+            "resources": ["Chat API Guide", "Completion Examples"]
           },
           {
             "id": "openai-playground",
             "title": "OpenAI Playground",
-            "description": "Experimenting with models and parameters",
             "status": "not-started",
             "difficulty": "beginner",
             "estimatedHours": 1,
@@ -113,121 +287,532 @@
           {
             "id": "fine-tuning",
             "title": "Fine-tuning",
-            "description": "Customizing models for specific tasks",
             "status": "not-started",
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "fine-tuning-project",
             "resources": ["Fine-tuning Guide", "Model Customization"]
+          },
+          {
+            "id": "managing-tokens",
+            "title": "Managing Tokens",
+            "status": "completed",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "token-calculator",
+            "completedDate": "2025-01-08",
+            "resources": ["Token Management", "Cost Optimization"]
+          },
+          {
+            "id": "maximum-tokens",
+            "title": "Maximum Tokens",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "token-limits",
+            "resources": ["Token Limits", "Model Constraints"]
+          },
+          {
+            "id": "token-counting",
+            "title": "Token Counting",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "token-counter",
+            "resources": ["Token Counting", "Counting Tools"]
+          },
+          {
+            "id": "pricing-considerations",
+            "title": "Pricing Considerations",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 1,
+            "project": "pricing-analysis",
+            "resources": ["Pricing Guide", "Cost Analysis"]
+          },
+          {
+            "id": "writing-prompts",
+            "title": "Writing Prompts",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "prompt-writing",
+            "resources": ["Prompt Writing", "Best Practices"]
           }
         ]
       },
       {
-        "id": "opensource-ai",
-        "title": "🌍 Open Source AI",
-        "description": "Exploring open source AI models and platforms",
+        "section": "AI Safety and Ethics",
         "progress": 0,
         "topics": [
           {
-            "id": "popular-models",
-            "title": "Popular Open Source Models",
-            "description": "Overview of available open source models",
+            "id": "understanding-ai-safety",
+            "title": "Understanding AI Safety Issues",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 3,
-            "project": "model-survey",
-            "resources": ["Model Zoo", "Model Comparisons"]
+            "project": "safety-analysis",
+            "resources": ["Safety Guide", "Ethics Documentation"]
+          },
+          {
+            "id": "prompt-injection-attacks",
+            "title": "Prompt Injection Attacks",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 3,
+            "project": "injection-demo",
+            "resources": ["Injection Guide", "Security Measures"]
+          },
+          {
+            "id": "bias-fairness",
+            "title": "Bias and Fairness",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "bias-analysis",
+            "resources": ["Bias Guide", "Fairness Principles"]
+          },
+          {
+            "id": "security-privacy",
+            "title": "Security and Privacy Concerns",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "security-analysis",
+            "resources": ["Security Guide", "Privacy Best Practices"]
+          },
+          {
+            "id": "adversarial-testing",
+            "title": "Adversarial Testing",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "adversarial-demo",
+            "resources": ["Testing Guide", "Robustness"]
+          },
+          {
+            "id": "openai-moderation-api",
+            "title": "OpenAI Moderation API",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "moderation-demo",
+            "resources": ["Moderation API", "Content Filtering"]
+          },
+          {
+            "id": "end-user-ids",
+            "title": "Adding End-user IDs in Prompts",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 1,
+            "project": "user-id-demo",
+            "resources": ["User ID Guide", "Tracking Best Practices"]
+          },
+          {
+            "id": "robust-prompt-engineering",
+            "title": "Robust Prompt Engineering",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "robust-prompts",
+            "resources": ["Robust Prompts", "Security Engineering"]
+          },
+          {
+            "id": "constraining-outputs",
+            "title": "Constraining Outputs and Inputs",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "constraints-demo",
+            "resources": ["Constraints Guide", "Output Control"]
+          },
+          {
+            "id": "safety-best-practices",
+            "title": "Safety Best Practices",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "safety-implementation",
+            "resources": ["Safety Practices", "Best Practices Guide"]
+          }
+        ]
+      },
+      {
+        "section": "Open Source AI",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "open-vs-closed-source",
+            "title": "Open vs Closed Source Models",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "source-comparison",
+            "resources": ["Source Comparison", "Model Licensing"]
+          },
+          {
+            "id": "popular-open-source-models",
+            "title": "Popular Open Source Models",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "open-source-survey",
+            "resources": ["Open Source Models", "Model Zoo"]
           },
           {
             "id": "hugging-face",
             "title": "Hugging Face",
-            "description": "Hugging Face Tasks, Hub, Finding Models",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "hf-integration",
+            "resources": ["Hugging Face Docs", "HF Guide"]
+          },
+          {
+            "id": "hugging-face-hub",
+            "title": "Hugging Face Hub",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "hf-hub-demo",
+            "resources": ["HF Hub Guide", "Model Repository"]
+          },
+          {
+            "id": "hugging-face-tasks",
+            "title": "Hugging Face Tasks",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "hf-tasks",
+            "resources": ["HF Tasks", "Task Categories"]
+          },
+          {
+            "id": "finding-open-source-models",
+            "title": "Finding Open Source Models",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "model-finder",
+            "resources": ["Model Finder", "Search Tools"]
+          },
+          {
+            "id": "using-open-source-models",
+            "title": "Using Open Source Models",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 4,
-            "project": "hugging-face-integration",
-            "resources": ["Hugging Face Docs", "Model Hub"]
+            "project": "open-source-demo",
+            "resources": ["Usage Guide", "Implementation"]
+          },
+          {
+            "id": "inference-sdk",
+            "title": "Inference SDK",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "sdk-demo",
+            "resources": ["SDK Guide", "Inference Tools"]
+          },
+          {
+            "id": "transformersjs",
+            "title": "Transformers.js",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "transformersjs-demo",
+            "resources": ["Transformers.js", "Browser AI"]
           },
           {
             "id": "ollama",
             "title": "Ollama",
-            "description": "Local model inference with Ollama",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "ollama-setup",
-            "resources": ["Ollama Docs", "Local Models Guide"]
-          }
-        ]
-      },
-      {
-        "id": "embeddings-vector-databases",
-        "title": "🗄️ Embeddings & Vector Databases",
-        "description": "Understanding embeddings and vector storage",
-        "progress": 0,
-        "topics": [
+            "resources": ["Ollama Docs", "Local Models"]
+          },
           {
-            "id": "embeddings-basics",
-            "title": "What are Embeddings",
-            "description": "Understanding vector representations",
+            "id": "ollama-models",
+            "title": "Ollama Models",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "project": "ollama-models-demo",
+            "resources": ["Ollama Models", "Model Library"]
+          },
+          {
+            "id": "ollama-sdk",
+            "title": "Ollama SDK",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 3,
-            "project": "embedding-visualization",
-            "resources": ["Embedding Guide", "Vector Mathematics"]
-          },
-          {
-            "id": "openai-embeddings",
-            "title": "OpenAI Embedding Models",
-            "description": "OpenAI Embeddings API and pricing",
-            "status": "not-started",
-            "difficulty": "intermediate",
-            "estimatedHours": 2,
-            "project": "semantic-search",
-            "resources": ["Embeddings API", "Pricing Guide"]
-          },
-          {
-            "id": "vector-databases",
-            "title": "Vector Databases",
-            "description": "Purpose, functionality, and popular options",
-            "status": "not-started",
-            "difficulty": "advanced",
-            "estimatedHours": 4,
-            "project": "vector-db-setup",
-            "resources": ["Vector DB Guide", "Database Comparisons"]
-          },
-          {
-            "id": "vector-search",
-            "title": "Implementing Vector Search",
-            "description": "Indexing embeddings and similarity search",
-            "status": "not-started",
-            "difficulty": "advanced",
-            "estimatedHours": 5,
-            "project": "search-engine",
-            "resources": ["Search Algorithms", "Indexing Guide"]
+            "project": "ollama-sdk-demo",
+            "resources": ["Ollama SDK", "API Integration"]
           }
         ]
       },
       {
-        "id": "rag-implementation",
-        "title": "🔍 RAG & Implementation",
-        "description": "Retrieval-Augmented Generation techniques",
+        "section": "Embeddings",
         "progress": 0,
         "topics": [
           {
-            "id": "rag-basics",
-            "title": "RAG Usecases",
-            "description": "RAG vs Fine-tuning, when to use RAG",
+            "id": "what-are-embeddings",
+            "title": "What are Embeddings",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "embedding-explanation",
+            "resources": ["Embedding Basics", "Vector Representations"]
+          },
+          {
+            "id": "semantic-search",
+            "title": "Semantic Search",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "semantic-search-demo",
+            "resources": ["Semantic Search", "Search Algorithms"]
+          },
+          {
+            "id": "recommendation-systems",
+            "title": "Recommendation Systems",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "recommendation-demo",
+            "resources": ["Recommendation Guide", "System Design"]
+          },
+          {
+            "id": "anomaly-detection",
+            "title": "Anomaly Detection",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "anomaly-demo",
+            "resources": ["Anomaly Detection", "Pattern Recognition"]
+          },
+          {
+            "id": "data-classification",
+            "title": "Data Classification",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "classification-demo",
+            "resources": ["Classification Guide", "ML Techniques"]
+          },
+          {
+            "id": "openai-embeddings-api",
+            "title": "OpenAI Embeddings API",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 2,
-            "project": "rag-analysis",
-            "resources": ["RAG Guide", "Use Case Studies"]
+            "project": "openai-embeddings-demo",
+            "resources": ["Embeddings API", "OpenAI Docs"]
+          },
+          {
+            "id": "openai-embedding-models",
+            "title": "OpenAI Embedding Models",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "embedding-models-demo",
+            "resources": ["Embedding Models", "Model Comparison"]
+          },
+          {
+            "id": "open-source-embeddings",
+            "title": "Open Source Embeddings",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "open-source-embeddings-demo",
+            "resources": ["Open Source Embeddings", "Model Alternatives"]
+          },
+          {
+            "id": "sentence-transformers",
+            "title": "Sentence Transformers",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "sentence-transformers-demo",
+            "resources": ["Sentence Transformers", "Text Processing"]
+          }
+        ]
+      },
+      {
+        "section": "Vector Databases",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "purpose-functionality",
+            "title": "Purpose and Functionality",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "vector-db-purpose",
+            "resources": ["Vector DB Purpose", "Database Concepts"]
+          },
+          {
+            "id": "chroma",
+            "title": "Chroma",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "chroma-demo",
+            "resources": ["Chroma DB", "Chroma Guide"]
+          },
+          {
+            "id": "pinecone",
+            "title": "Pinecone",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "pinecone-demo",
+            "resources": ["Pinecone DB", "Pinecone Docs"]
+          },
+          {
+            "id": "weaviate",
+            "title": "Weaviate",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "weaviate-demo",
+            "resources": ["Weaviate DB", "Weaviate Guide"]
+          },
+          {
+            "id": "faiss",
+            "title": "FAISS",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "faiss-demo",
+            "resources": ["FAISS Library", "Facebook AI"]
+          },
+          {
+            "id": "lancedb",
+            "title": "LanceDB",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "lancedb-demo",
+            "resources": ["LanceDB", "Lance Documentation"]
+          },
+          {
+            "id": "qdrant",
+            "title": "Qdrant",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "qdrant-demo",
+            "resources": ["Qdrant DB", "Qdrant Guide"]
+          },
+          {
+            "id": "supabase",
+            "title": "Supabase",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "supabase-vector",
+            "resources": ["Supabase", "Vector Extensions"]
+          },
+          {
+            "id": "mongodb-atlas",
+            "title": "MongoDB Atlas",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "mongodb-vector",
+            "resources": ["MongoDB Atlas", "Vector Search"]
+          },
+          {
+            "id": "indexing-embeddings",
+            "title": "Indexing Embeddings",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "indexing-demo",
+            "resources": ["Indexing Guide", "Search Optimization"]
+          },
+          {
+            "id": "similarity-search",
+            "title": "Similarity Search",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "similarity-demo",
+            "resources": ["Similarity Search", "Search Algorithms"]
+          },
+          {
+            "id": "vector-search-implementation",
+            "title": "Vector Search Implementation",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 5,
+            "project": "vector-search-app",
+            "resources": ["Implementation Guide", "End-to-End"]
+          }
+        ]
+      },
+      {
+        "section": "RAG (Retrieval Augmented Generation)",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "rag-usecases",
+            "title": "RAG Usecases",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "rag-usecases-demo",
+            "resources": ["RAG Use Cases", "Application Examples"]
+          },
+          {
+            "id": "rag-vs-fine-tuning",
+            "title": "RAG vs Fine-tuning",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "rag-comparison",
+            "resources": ["RAG vs Fine-tuning", "Comparison Guide"]
+          },
+          {
+            "id": "chunking",
+            "title": "Chunking",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "chunking-demo",
+            "resources": ["Chunking Guide", "Text Processing"]
+          },
+          {
+            "id": "embedding-rag",
+            "title": "Embedding",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "rag-embedding",
+            "resources": ["RAG Embeddings", "Vector Creation"]
+          },
+          {
+            "id": "retrieval-process",
+            "title": "Retrieval Process",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "retrieval-demo",
+            "resources": ["Retrieval Process", "Search Algorithms"]
+          },
+          {
+            "id": "generation",
+            "title": "Generation",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 3,
+            "project": "generation-demo",
+            "resources": ["Generation Process", "Output Creation"]
           },
           {
             "id": "implementing-rag",
             "title": "Implementing RAG",
-            "description": "Chunking, Embedding, Vector Database, Retrieval, Generation",
             "status": "not-started",
             "difficulty": "advanced",
             "estimatedHours": 6,
@@ -235,138 +820,280 @@
             "resources": ["RAG Implementation", "End-to-End Guide"]
           },
           {
-            "id": "rag-alternatives",
-            "title": "RAG Alternatives",
-            "description": "Different approaches to RAG implementation",
+            "id": "using-sdks-directly",
+            "title": "Using SDKs Directly",
             "status": "not-started",
-            "difficulty": "advanced",
+            "difficulty": "intermediate",
             "estimatedHours": 3,
-            "project": "rag-alternatives",
-            "resources": ["Alternative Methods", "Comparison Guide"]
-          }
-        ]
-      },
-      {
-        "id": "ai-agents",
-        "title": "🤖 AI Agents",
-        "description": "Building intelligent AI agents",
-        "progress": 0,
-        "topics": [
+            "project": "sdk-rag",
+            "resources": ["SDK Implementation", "Direct APIs"]
+          },
           {
-            "id": "agents-basics",
-            "title": "Agents Usecases",
-            "description": "Understanding AI agent applications",
+            "id": "langchain",
+            "title": "LangChain",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 4,
+            "project": "langchain-rag",
+            "resources": ["LangChain RAG", "Framework Guide"]
+          },
+          {
+            "id": "llamaindex",
+            "title": "LlamaIndex",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 4,
+            "project": "llamaindex-rag",
+            "resources": ["LlamaIndex RAG", "Framework Guide"]
+          },
+          {
+            "id": "openai-assistants-api",
+            "title": "OpenAI Assistants API",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "assistants-api",
+            "resources": ["Assistants API", "OpenAI Docs"]
+          },
+          {
+            "id": "replicate",
+            "title": "Replicate",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 2,
-            "project": "agent-research",
-            "resources": ["Agent Use Cases", "Application Examples"]
-          },
-          {
-            "id": "building-agents",
-            "title": "Building AI Agents",
-            "description": "Manual implementation, OpenAI Functions/Tools, Assistant API",
-            "status": "not-started",
-            "difficulty": "advanced",
-            "estimatedHours": 6,
-            "project": "ai-agent",
-            "resources": ["Agent Building Guide", "Function Calling"]
-          },
-          {
-            "id": "prompt-engineering-agents",
-            "title": "Prompt Engineering for Agents",
-            "description": "ReAct Prompting and advanced techniques",
-            "status": "not-started",
-            "difficulty": "advanced",
-            "estimatedHours": 4,
-            "project": "agent-prompts",
-            "resources": ["ReAct Guide", "Advanced Prompting"]
+            "project": "replicate-rag",
+            "resources": ["Replicate Platform", "Model Deployment"]
           }
         ]
       },
       {
-        "id": "multimodal-ai",
-        "title": "🎨 Multimodal AI",
-        "description": "Working with multiple data types",
+        "section": "AI Agents",
         "progress": 0,
         "topics": [
           {
-            "id": "multimodal-usecases",
-            "title": "Multimodal AI Usecases",
-            "description": "Image, video, audio understanding and generation",
+            "id": "agents-usecases",
+            "title": "Agents Usecases",
             "status": "not-started",
             "difficulty": "intermediate",
-            "estimatedHours": 3,
-            "project": "multimodal-analysis",
-            "resources": ["Multimodal Guide", "Use Case Examples"]
+            "estimatedHours": 2,
+            "project": "agent-usecases",
+            "resources": ["Agent Use Cases", "Application Examples"]
           },
           {
-            "id": "vision-api",
-            "title": "OpenAI Vision API",
-            "description": "Image understanding with GPT-4V",
+            "id": "react-prompting",
+            "title": "ReAct Prompting",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 3,
+            "project": "react-demo",
+            "resources": ["ReAct Prompting", "Reasoning Framework"]
+          },
+          {
+            "id": "manual-implementation",
+            "title": "Manual Implementation",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 5,
+            "project": "manual-agent",
+            "resources": ["Manual Implementation", "Custom Agents"]
+          },
+          {
+            "id": "openai-functions-tools",
+            "title": "OpenAI Functions/Tools",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "functions-tools",
+            "resources": ["Functions/Tools", "OpenAI Docs"]
+          },
+          {
+            "id": "assistant-api-agents",
+            "title": "Assistant API",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 3,
-            "project": "vision-app",
-            "resources": ["Vision API Docs", "Image Processing"]
+            "project": "assistant-agent",
+            "resources": ["Assistant API", "Agent Framework"]
+          },
+          {
+            "id": "building-ai-agents",
+            "title": "Building AI Agents",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 6,
+            "project": "ai-agent-system",
+            "resources": ["Agent Building", "System Design"]
+          },
+          {
+            "id": "rag-as-agent-alternative",
+            "title": "RAG as Agent Alternative",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "rag-agent-alternative",
+            "resources": ["RAG Alternative", "Agent Design"]
+          }
+        ]
+      },
+      {
+        "section": "Multimodal AI",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "image-understanding",
+            "title": "Image Understanding",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "image-understanding-demo",
+            "resources": ["Image Understanding", "Vision AI"]
+          },
+          {
+            "id": "image-generation",
+            "title": "Image Generation",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "image-generation-demo",
+            "resources": ["Image Generation", "Creative AI"]
+          },
+          {
+            "id": "video-understanding",
+            "title": "Video Understanding",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "video-understanding-demo",
+            "resources": ["Video Understanding", "Video AI"]
+          },
+          {
+            "id": "audio-processing",
+            "title": "Audio Processing",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "audio-processing-demo",
+            "resources": ["Audio Processing", "Sound AI"]
+          },
+          {
+            "id": "text-to-speech",
+            "title": "Text-to-Speech",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "tts-demo",
+            "resources": ["Text-to-Speech", "Voice Synthesis"]
+          },
+          {
+            "id": "speech-to-text",
+            "title": "Speech-to-Text",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 2,
+            "project": "stt-demo",
+            "resources": ["Speech-to-Text", "Voice Recognition"]
+          },
+          {
+            "id": "openai-vision-api",
+            "title": "OpenAI Vision API",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 3,
+            "project": "vision-api-demo",
+            "resources": ["Vision API", "GPT-4V"]
           },
           {
             "id": "dalle-api",
             "title": "DALL-E API",
-            "description": "Image generation with DALL-E",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 2,
-            "project": "image-generator",
-            "resources": ["DALL-E Guide", "Generation Examples"]
+            "project": "dalle-demo",
+            "resources": ["DALL-E API", "Image Generation"]
           },
           {
             "id": "whisper-api",
             "title": "Whisper API",
-            "description": "Speech-to-text with Whisper",
             "status": "not-started",
             "difficulty": "intermediate",
             "estimatedHours": 2,
-            "project": "transcription-app",
-            "resources": ["Whisper Docs", "Audio Processing"]
+            "project": "whisper-demo",
+            "resources": ["Whisper API", "Speech Recognition"]
           },
           {
-            "id": "multimodal-frameworks",
-            "title": "Multimodal Frameworks",
-            "description": "LangChain and LlamaIndex for multimodal apps",
+            "id": "langchain-multimodal",
+            "title": "LangChain Multimodal",
             "status": "not-started",
             "difficulty": "advanced",
             "estimatedHours": 4,
-            "project": "multimodal-framework",
-            "resources": ["LangChain Multimodal", "LlamaIndex Guide"]
+            "project": "langchain-multimodal-demo",
+            "resources": ["LangChain Multimodal", "Framework Guide"]
+          },
+          {
+            "id": "llamaindex-multimodal",
+            "title": "LlamaIndex Multimodal",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 4,
+            "project": "llamaindex-multimodal-demo",
+            "resources": ["LlamaIndex Multimodal", "Framework Guide"]
           }
         ]
       },
       {
-        "id": "ai-safety-ethics",
-        "title": "🛡️ AI Safety and Ethics",
-        "description": "Understanding AI safety and ethical considerations",
+        "section": "Development Tools",
         "progress": 0,
         "topics": [
           {
-            "id": "safety-issues",
-            "title": "Understanding AI Safety Issues",
-            "description": "Prompt injection, security, privacy, bias, fairness",
+            "id": "ai-code-editors",
+            "title": "AI Code Editors",
             "status": "not-started",
-            "difficulty": "intermediate",
-            "estimatedHours": 3,
-            "project": "safety-analysis",
-            "resources": ["AI Safety Guide", "Ethics Documentation"]
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "ai-editor-setup",
+            "resources": ["AI Editors", "Code Tools"]
           },
           {
-            "id": "safety-practices",
-            "title": "Safety Best Practices",
-            "description": "OpenAI Moderation API, user IDs, adversarial testing",
+            "id": "code-completion-tools",
+            "title": "Code Completion Tools",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "project": "completion-tools",
+            "resources": ["Completion Tools", "Productivity"]
+          }
+        ]
+      },
+      {
+        "section": "Related Learning Tracks",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "prompt-engineering-track",
+            "title": "Prompt Engineering",
             "status": "not-started",
             "difficulty": "intermediate",
-            "estimatedHours": 3,
-            "project": "safety-implementation",
-            "resources": ["Safety Practices", "Moderation Guide"]
+            "estimatedHours": 10,
+            "project": "prompt-engineering-deep",
+            "resources": ["Prompt Engineering Track", "Advanced Techniques"]
+          },
+          {
+            "id": "ai-data-scientist-track",
+            "title": "AI & Data Scientist Track",
+            "status": "not-started",
+            "difficulty": "advanced",
+            "estimatedHours": 20,
+            "project": "data-scientist-path",
+            "resources": ["Data Scientist Track", "Career Path"]
+          },
+          {
+            "id": "data-analyst-track",
+            "title": "Data Analyst Track",
+            "status": "not-started",
+            "difficulty": "intermediate",
+            "estimatedHours": 15,
+            "project": "data-analyst-path",
+            "resources": ["Data Analyst Track", "Analytics Path"]
           }
         ]
       }
@@ -384,50 +1111,50 @@
         "id": "chat-application",
         "title": "💬 Chat Application Complete",
         "description": "Build a complete chat application",
-        "relatedTopics": ["openai-api", "token-management"],
+        "relatedTopics": ["openai-api", "managing-tokens"],
         "achieved": true,
         "achievedDate": "2025-01-08"
       },
       {
-        "id": "embedding-expert",
-        "title": "🔍 Embedding Expert",
-        "description": "Master embeddings and vector databases",
-        "relatedTopics": ["embeddings-basics", "openai-embeddings", "vector-databases", "vector-search"],
+        "id": "introduction-complete",
+        "title": "🚀 Introduction Master",
+        "description": "Complete all introduction topics",
+        "relatedTopics": ["what-is-ai-engineer", "ai-engineer-vs-ml-engineer", "roles-responsibilities", "impact-product-development", "ai-vs-agi", "common-terminology"],
         "achieved": false
       },
       {
-        "id": "rag-master",
-        "title": "🔍 RAG Master",
-        "description": "Complete the entire RAG implementation track",
-        "relatedTopics": ["rag-basics", "implementing-rag", "rag-alternatives"],
+        "id": "core-concepts-master",
+        "title": "🧠 Core Concepts Master",
+        "description": "Complete all core LLM concepts",
+        "relatedTopics": ["llms", "inference", "training", "embeddings", "vector-databases", "rag", "prompt-engineering", "ai-agents"],
         "achieved": false
       },
       {
-        "id": "agent-builder",
-        "title": "🤖 Agent Builder",
-        "description": "Build your first AI agent with function calling",
-        "relatedTopics": ["agents-basics", "building-agents", "prompt-engineering-agents"],
+        "id": "openai-platform-expert",
+        "title": "🔵 OpenAI Platform Expert",
+        "description": "Complete the entire OpenAI Platform section",
+        "relatedTopics": ["openai-platform", "openai-api", "chat-completions-api", "openai-playground", "fine-tuning", "managing-tokens", "maximum-tokens", "token-counting", "pricing-considerations", "writing-prompts"],
+        "achieved": false
+      },
+      {
+        "id": "safety-certified",
+        "title": "🛡️ AI Safety Certified",
+        "description": "Complete AI safety and ethics section",
+        "relatedTopics": ["understanding-ai-safety", "prompt-injection-attacks", "bias-fairness", "security-privacy", "adversarial-testing", "openai-moderation-api", "end-user-ids", "robust-prompt-engineering", "constraining-outputs", "safety-best-practices"],
         "achieved": false
       },
       {
         "id": "multimodal-expert",
         "title": "🎨 Multimodal Expert",
         "description": "Complete all multimodal AI topics",
-        "relatedTopics": ["multimodal-usecases", "vision-api", "dalle-api", "whisper-api", "multimodal-frameworks"],
-        "achieved": false
-      },
-      {
-        "id": "ai-safety-certified",
-        "title": "🛡️ AI Safety Certified",
-        "description": "Complete AI safety and ethics track",
-        "relatedTopics": ["safety-issues", "safety-practices"],
+        "relatedTopics": ["image-understanding", "image-generation", "video-understanding", "audio-processing", "text-to-speech", "speech-to-text", "openai-vision-api", "dalle-api", "whisper-api", "langchain-multimodal", "llamaindex-multimodal"],
         "achieved": false
       },
       {
         "id": "ai-engineer-ready",
         "title": "🚀 AI Engineer Ready",
         "description": "Complete the entire roadmap",
-        "relatedTopics": ["introduction", "pretrained-models", "openai-platform", "opensource-ai", "embeddings-vector-databases", "rag-implementation", "ai-agents", "multimodal-ai", "ai-safety-ethics"],
+        "relatedTopics": ["introduction", "core-llm-concepts", "working-with-pretrained-models", "openai-platform", "ai-safety-ethics", "open-source-ai", "embeddings", "vector-databases", "rag", "ai-agents", "multimodal-ai", "development-tools"],
         "achieved": false
       }
     ]
