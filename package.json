@@ -1,0 +1,20 @@
+{
+  "name": "ai-engineer-roadmap",
+  "version": "1.0.0",
+  "description": "AI Engineer Roadmap with Progress Tracking",
+  "main": "update-progress.cjs",
+  "scripts": {
+    "update": "node update-progress.cjs",
+    "report": "node update-progress.cjs report",
+    "list": "node update-progress.cjs list",
+    "milestones": "node update-progress.cjs milestones",
+    "generate": "node generate-readme.cjs",
+    "auto-update": "node update-progress.cjs update $1 && node generate-readme.cjs"
+  },
+  "keywords": ["ai", "machine-learning", "roadmap", "progress-tracking"],
+  "author": "AI Engineer Learner",
+  "license": "MIT",
+  "bin": {
+    "roadmap": "./update-progress.cjs"
+  }
+}

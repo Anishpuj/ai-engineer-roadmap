@@ -1,0 +1,96 @@
+{
+  "roadmap": {
+    "title": "AI Engineer Roadmap",
+    "description": "Comprehensive learning path to become an AI Engineer",
+    "lastUpdated": "2025-01-08",
+    "overallProgress": 0,
+    "categories": [
+      {
+        "id": "fundamentals",
+        "title": "🎯 Fundamentals",
+        "description": "Core concepts and基础知识",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "what-is-ai-engineer",
+            "title": "What is an AI Engineer?",
+            "description": "Understanding the role and responsibilities",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "resources": ["Documentation", "Videos", "Articles"],
+            "project": null
+          },
+          {
+            "id": "ai-vs-ml-engineer",
+            "title": "AI Engineer vs ML Engineer",
+            "description": "Understanding the differences and similarities",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 1,
+            "resources": ["Comparison Articles", "Role Definitions"],
+            "project": null
+          },
+          {
+            "id": "llms-basics",
+            "title": "LLMs (Large Language Models)",
+            "description": "Understanding how LLMs work",
+            "status": "not-started",
+            "difficulty": "beginner",
+            "estimatedHours": 4,
+            "resources": ["Research Papers", "Online Courses", "Documentation"],
+            "project": null
+          }
+        ]
+      },
+      {
+        "id": "openai-platform",
+        "title": "🚀 OpenAI Platform",
+        "description": "Mastering OpenAI's ecosystem and APIs",
+        "progress": 0,
+        "topics": [
+          {
+            "id": "openai-api-basics",
+            "title": "OpenAI API Basics",
+            "description": "Getting started with OpenAI API",
+            "status": "completed",
+            "difficulty": "beginner",
+            "estimatedHours": 2,
+            "resources": ["API Documentation", "Quickstart Guide"],
+            "project": "ai-chat-application",
+            "completedDate": "2025-01-08"
+          },
+          {
+            "id": "chat-completions",
+            "title": "Chat Completions API",
+            "description": "Mastering chat completions for conversations",
+            "status": "completed",
+            "difficulty": "beginner",
+            "estimatedHours": 4,
+            "resources": ["API Docs", "Examples", "Best Practices"],
+            "project": "ai-chat-application",
+            "completedDate": "2025-01-08"
+          }
+        ]
+      }
+    ],
+    "milestones": [
+      {
+        "id": "first-api-call",
+        "title": "🎉 First API Call",
+        "description": "Successfully make your first OpenAI API call",
+        "achieved": true,
+        "achievedDate": "2025-01-08",
+        "relatedTopics": ["openai-api-basics", "chat-completions"]
+      },
+      {
+        "id": "chat-app-complete",
+        "title": "💬 Chat Application Complete",
+        "description": "Build a complete chat application",
+        "achieved": true,
+        "achievedDate": "2025-01-08",
+        "relatedTopics": ["openai-api-basics", "chat-completions"]
+      }
+    ]
+  }
+}
