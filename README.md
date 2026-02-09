@@ -8,10 +8,10 @@
 ## 📊 Overall Progress
 
 ```
-█████░░░░░░░░░░░░░░░ 25%
+██████░░░░░░░░░░░░░░ 28%
 ```
 
-**🎯 28/112 topics completed**  
+**🎯 31/112 topics completed**  
 **🏆 4/8 milestones achieved**  
 **📅 Last Updated: 2026-02-09**
 
@@ -26,7 +26,7 @@
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/10 | ⭕ Not Started |
-| Open Source AI | `███░░░░░░░░░░░░░░░░░` 17% | 2/12 | 🔄 In Progress |
+| Open Source AI | `████████░░░░░░░░░░░░` 42% | 5/12 | 🔄 In Progress |
 | Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
@@ -197,7 +197,7 @@
   - ✅ Completed: 2026-02-08
   - 📚 Resources: Prompt Writing, Best Practices
 
-### Open Source AI (17% Complete)
+### Open Source AI (42% Complete)
 
 #### ✅ Completed Topics
 - **Open vs Closed Source Models** ⭐⭐⭐⭐
@@ -210,22 +210,22 @@
   - ✅ Completed: 2026-02-09
   - 📚 Resources: Open Source Models, Model Zoo
 
-#### 🔄 Upcoming Topics
 - **Hugging Face** ⭐⭐⭐⭐
   - 📁 Project: `hf-integration`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-09
   - 📚 Resources: Hugging Face Docs, HF Guide
 
 - **Hugging Face Hub** ⭐⭐⭐
   - 📁 Project: `hf-hub-demo`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-09
   - 📚 Resources: HF Hub Guide, Model Repository
 
 - **Hugging Face Tasks** ⭐⭐⭐⭐
   - 📁 Project: `hf-tasks`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-09
   - 📚 Resources: HF Tasks, Task Categories
 
+#### 🔄 Upcoming Topics
 - **Finding Open Source Models** ⭐⭐⭐
   - 📁 Project: `model-finder`
   - ⏱️ Estimated: 2 hours
@@ -406,18 +406,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 28 (25%)
+- **Completed**: 31 (28%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 84 (75%)
+- **Not Started**: 81 (72%)
 
 ### Time Investment
-- **Completed Hours**: 59 hours
+- **Completed Hours**: 67 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~297 hours
+- **Remaining**: ~289 hours
 
 ### Difficulty Breakdown
-- 🟢 **Beginner**: 18 topics (12 completed)
-- 🟡 **Intermediate**: 71 topics (15 completed)
+- 🟢 **Beginner**: 18 topics (13 completed)
+- 🟡 **Intermediate**: 71 topics (17 completed)
 - 🔴 **Advanced**: 23 topics (1 completed)
 
 

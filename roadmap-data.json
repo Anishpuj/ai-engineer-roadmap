@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-02-09",
-    "overallProgress": 25,
+    "overallProgress": 28,
     "sections": [
       {
         "section": "Introduction",
@@ -591,7 +591,7 @@
       },
       {
         "section": "Open Source AI",
-        "progress": 17,
+        "progress": 42,
         "topics": [
           {
             "id": "open-vs-closed-source",
@@ -622,38 +622,41 @@
           {
             "id": "hugging-face",
             "title": "Hugging Face",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "hf-integration",
             "resources": [
               "Hugging Face Docs",
               "HF Guide"
-            ]
+            ],
+            "completedDate": "2026-02-09"
           },
           {
             "id": "hugging-face-hub",
             "title": "Hugging Face Hub",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "hf-hub-demo",
             "resources": [
               "HF Hub Guide",
               "Model Repository"
-            ]
+            ],
+            "completedDate": "2026-02-09"
           },
           {
             "id": "hugging-face-tasks",
             "title": "Hugging Face Tasks",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "hf-tasks",
             "resources": [
               "HF Tasks",
               "Task Categories"
-            ]
+            ],
+            "completedDate": "2026-02-09"
           },
           {
             "id": "finding-open-source-models",
