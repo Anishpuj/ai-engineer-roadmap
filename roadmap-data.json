@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-08",
-    "overallProgress": 23,
+    "lastUpdated": "2026-02-09",
+    "overallProgress": 25,
     "sections": [
       {
         "section": "Introduction",
@@ -591,31 +591,33 @@
       },
       {
         "section": "Open Source AI",
-        "progress": 0,
+        "progress": 17,
         "topics": [
           {
             "id": "open-vs-closed-source",
             "title": "Open vs Closed Source Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "source-comparison",
             "resources": [
               "Source Comparison",
               "Model Licensing"
-            ]
+            ],
+            "completedDate": "2026-02-09"
           },
           {
             "id": "popular-open-source-models",
             "title": "Popular Open Source Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "open-source-survey",
             "resources": [
               "Open Source Models",
               "Model Zoo"
-            ]
+            ],
+            "completedDate": "2026-02-09"
           },
           {
             "id": "hugging-face",

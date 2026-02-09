@@ -1,4 +1,4 @@
-# 🤖 AI Engineer Roadmap..
+# 🤖 AI Engineer Roadmap
 
 > **Comprehensive learning path to become an AI Engineer**  
 > Track your progress as you master AI technologies and build real projects
@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-█████░░░░░░░░░░░░░░░ 23%
+█████░░░░░░░░░░░░░░░ 25%
 ```
 
-**🎯 26/112 topics completed**  
+**🎯 28/112 topics completed**  
 **🏆 4/8 milestones achieved**  
-**📅 Last Updated: 2026-02-08**
+**📅 Last Updated: 2026-02-09**
 
 ---
 
@@ -26,7 +26,7 @@
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/10 | ⭕ Not Started |
-| Open Source AI | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
+| Open Source AI | `███░░░░░░░░░░░░░░░░░` 17% | 2/12 | 🔄 In Progress |
 | Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
@@ -197,6 +197,70 @@
   - ✅ Completed: 2026-02-08
   - 📚 Resources: Prompt Writing, Best Practices
 
+### Open Source AI (17% Complete)
+
+#### ✅ Completed Topics
+- **Open vs Closed Source Models** ⭐⭐⭐⭐
+  - 📁 Project: `source-comparison`
+  - ✅ Completed: 2026-02-09
+  - 📚 Resources: Source Comparison, Model Licensing
+
+- **Popular Open Source Models** ⭐⭐⭐⭐
+  - 📁 Project: `open-source-survey`
+  - ✅ Completed: 2026-02-09
+  - 📚 Resources: Open Source Models, Model Zoo
+
+#### 🔄 Upcoming Topics
+- **Hugging Face** ⭐⭐⭐⭐
+  - 📁 Project: `hf-integration`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Hugging Face Docs, HF Guide
+
+- **Hugging Face Hub** ⭐⭐⭐
+  - 📁 Project: `hf-hub-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: HF Hub Guide, Model Repository
+
+- **Hugging Face Tasks** ⭐⭐⭐⭐
+  - 📁 Project: `hf-tasks`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: HF Tasks, Task Categories
+
+- **Finding Open Source Models** ⭐⭐⭐
+  - 📁 Project: `model-finder`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Model Finder, Search Tools
+
+- **Using Open Source Models** ⭐⭐⭐⭐
+  - 📁 Project: `open-source-demo`
+  - ⏱️ Estimated: 4 hours
+  - 📚 Resources: Usage Guide, Implementation
+
+- **Inference SDK** ⭐⭐⭐⭐
+  - 📁 Project: `sdk-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: SDK Guide, Inference Tools
+
+- **Transformers.js** ⭐⭐⭐⭐
+  - 📁 Project: `transformersjs-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Transformers.js, Browser AI
+
+- **Ollama** ⭐⭐⭐⭐
+  - 📁 Project: `ollama-setup`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Ollama Docs, Local Models
+
+- **Ollama Models** ⭐⭐⭐
+  - 📁 Project: `ollama-models-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Ollama Models, Model Library
+
+- **Ollama SDK** ⭐⭐⭐⭐
+  - 📁 Project: `ollama-sdk-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Ollama SDK, API Integration
+
 
 
 ---
@@ -342,18 +406,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 26 (23%)
+- **Completed**: 28 (25%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 86 (77%)
+- **Not Started**: 84 (75%)
 
 ### Time Investment
-- **Completed Hours**: 54 hours
+- **Completed Hours**: 59 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~302 hours
+- **Remaining**: ~297 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (12 completed)
-- 🟡 **Intermediate**: 71 topics (13 completed)
+- 🟡 **Intermediate**: 71 topics (15 completed)
 - 🔴 **Advanced**: 23 topics (1 completed)
 
 
@@ -458,4 +522,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-08*
+*Last updated: 2026-02-09*
