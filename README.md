@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-██████░░░░░░░░░░░░░░ 28%
+██████░░░░░░░░░░░░░░ 31%
 ```
 
-**🎯 31/112 topics completed**  
+**🎯 35/112 topics completed**  
 **🏆 4/8 milestones achieved**  
-**📅 Last Updated: 2026-02-09**
+**📅 Last Updated: 2026-02-10**
 
 ---
 
@@ -26,7 +26,7 @@
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/10 | ⭕ Not Started |
-| Open Source AI | `████████░░░░░░░░░░░░` 42% | 5/12 | 🔄 In Progress |
+| Open Source AI | `███████████████░░░░░` 75% | 9/12 | 🔄 In Progress |
 | Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
@@ -197,7 +197,7 @@
   - ✅ Completed: 2026-02-08
   - 📚 Resources: Prompt Writing, Best Practices
 
-### Open Source AI (42% Complete)
+### Open Source AI (75% Complete)
 
 #### ✅ Completed Topics
 - **Open vs Closed Source Models** ⭐⭐⭐⭐
@@ -225,27 +225,27 @@
   - ✅ Completed: 2026-02-09
   - 📚 Resources: HF Tasks, Task Categories
 
-#### 🔄 Upcoming Topics
 - **Finding Open Source Models** ⭐⭐⭐
   - 📁 Project: `model-finder`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-10
   - 📚 Resources: Model Finder, Search Tools
 
 - **Using Open Source Models** ⭐⭐⭐⭐
   - 📁 Project: `open-source-demo`
-  - ⏱️ Estimated: 4 hours
+  - ✅ Completed: 2026-02-10
   - 📚 Resources: Usage Guide, Implementation
 
 - **Inference SDK** ⭐⭐⭐⭐
   - 📁 Project: `sdk-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-10
   - 📚 Resources: SDK Guide, Inference Tools
 
 - **Transformers.js** ⭐⭐⭐⭐
   - 📁 Project: `transformersjs-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-10
   - 📚 Resources: Transformers.js, Browser AI
 
+#### 🔄 Upcoming Topics
 - **Ollama** ⭐⭐⭐⭐
   - 📁 Project: `ollama-setup`
   - ⏱️ Estimated: 3 hours
@@ -406,18 +406,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 31 (28%)
+- **Completed**: 35 (31%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 81 (72%)
+- **Not Started**: 77 (69%)
 
 ### Time Investment
-- **Completed Hours**: 67 hours
+- **Completed Hours**: 79 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~289 hours
+- **Remaining**: ~277 hours
 
 ### Difficulty Breakdown
-- 🟢 **Beginner**: 18 topics (13 completed)
-- 🟡 **Intermediate**: 71 topics (17 completed)
+- 🟢 **Beginner**: 18 topics (14 completed)
+- 🟡 **Intermediate**: 71 topics (20 completed)
 - 🔴 **Advanced**: 23 topics (1 completed)
 
 
@@ -522,4 +522,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-09*
+*Last updated: 2026-02-10*

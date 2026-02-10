@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-09",
-    "overallProgress": 28,
+    "lastUpdated": "2026-02-10",
+    "overallProgress": 31,
     "sections": [
       {
         "section": "Introduction",
@@ -591,7 +591,7 @@
       },
       {
         "section": "Open Source AI",
-        "progress": 42,
+        "progress": 75,
         "topics": [
           {
             "id": "open-vs-closed-source",
@@ -661,50 +661,54 @@
           {
             "id": "finding-open-source-models",
             "title": "Finding Open Source Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "model-finder",
             "resources": [
               "Model Finder",
               "Search Tools"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "using-open-source-models",
             "title": "Using Open Source Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "open-source-demo",
             "resources": [
               "Usage Guide",
               "Implementation"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "inference-sdk",
             "title": "Inference SDK",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "sdk-demo",
             "resources": [
               "SDK Guide",
               "Inference Tools"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "transformersjs",
             "title": "Transformers.js",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "transformersjs-demo",
             "resources": [
               "Transformers.js",
               "Browser AI"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "ollama",
