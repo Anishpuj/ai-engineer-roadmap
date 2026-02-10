@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-02-10",
-    "overallProgress": 31,
+    "overallProgress": 34,
     "sections": [
       {
         "section": "Introduction",
@@ -591,7 +591,7 @@
       },
       {
         "section": "Open Source AI",
-        "progress": 75,
+        "progress": 100,
         "topics": [
           {
             "id": "open-vs-closed-source",
@@ -713,38 +713,41 @@
           {
             "id": "ollama",
             "title": "Ollama",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "ollama-setup",
             "resources": [
               "Ollama Docs",
               "Local Models"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "ollama-models",
             "title": "Ollama Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "ollama-models-demo",
             "resources": [
               "Ollama Models",
               "Model Library"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           },
           {
             "id": "ollama-sdk",
             "title": "Ollama SDK",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "ollama-sdk-demo",
             "resources": [
               "Ollama SDK",
               "API Integration"
-            ]
+            ],
+            "completedDate": "2026-02-10"
           }
         ]
       },
