@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-███████░░░░░░░░░░░░░ 34%
+███████░░░░░░░░░░░░░ 37%
 ```
 
-**🎯 38/112 topics completed**  
+**🎯 41/112 topics completed**  
 **🏆 4/8 milestones achieved**  
-**📅 Last Updated: 2026-02-10**
+**📅 Last Updated: 2026-02-11**
 
 ---
 
@@ -25,7 +25,7 @@
 | Core LLM Concepts | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/8 | ⭕ Not Started |
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
-| AI Safety and Ethics | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/10 | ⭕ Not Started |
+| AI Safety and Ethics | `██████░░░░░░░░░░░░░░` 30% | 3/10 | 🔄 In Progress |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
 | Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
@@ -196,6 +196,60 @@
   - 📁 Project: `prompt-writing`
   - ✅ Completed: 2026-02-08
   - 📚 Resources: Prompt Writing, Best Practices
+
+### AI Safety and Ethics (30% Complete)
+
+#### ✅ Completed Topics
+- **Prompt Injection Attacks** ⭐⭐⭐⭐⭐
+  - 📁 Project: `injection-demo`
+  - ✅ Completed: 2026-02-11
+  - 📚 Resources: Injection Guide, Security Measures
+
+- **Bias and Fairness** ⭐⭐⭐⭐
+  - 📁 Project: `bias-analysis`
+  - ✅ Completed: 2026-02-11
+  - 📚 Resources: Bias Guide, Fairness Principles
+
+- **Security and Privacy Concerns** ⭐⭐⭐⭐
+  - 📁 Project: `security-analysis`
+  - ✅ Completed: 2026-02-11
+  - 📚 Resources: Security Guide, Privacy Best Practices
+
+#### 🔄 Upcoming Topics
+- **Understanding AI Safety Issues** ⭐⭐⭐⭐
+  - 📁 Project: `safety-analysis`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Safety Guide, Ethics Documentation
+
+- **Adversarial Testing** ⭐⭐⭐⭐⭐
+  - 📁 Project: `adversarial-demo`
+  - ⏱️ Estimated: 4 hours
+  - 📚 Resources: Testing Guide, Robustness
+
+- **OpenAI Moderation API** ⭐⭐⭐⭐
+  - 📁 Project: `moderation-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Moderation API, Content Filtering
+
+- **Adding End-user IDs in Prompts** ⭐⭐⭐⭐
+  - 📁 Project: `user-id-demo`
+  - ⏱️ Estimated: 1 hours
+  - 📚 Resources: User ID Guide, Tracking Best Practices
+
+- **Robust Prompt Engineering** ⭐⭐⭐⭐⭐
+  - 📁 Project: `robust-prompts`
+  - ⏱️ Estimated: 4 hours
+  - 📚 Resources: Robust Prompts, Security Engineering
+
+- **Constraining Outputs and Inputs** ⭐⭐⭐⭐
+  - 📁 Project: `constraints-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Constraints Guide, Output Control
+
+- **Safety Best Practices** ⭐⭐⭐⭐
+  - 📁 Project: `safety-implementation`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Safety Practices, Best Practices Guide
 
 ### Open Source AI (100% Complete)
 
@@ -405,19 +459,19 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 38 (34%)
+- **Completed**: 41 (37%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 74 (66%)
+- **Not Started**: 71 (63%)
 
 ### Time Investment
-- **Completed Hours**: 87 hours
+- **Completed Hours**: 96 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~269 hours
+- **Remaining**: ~260 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (22 completed)
-- 🔴 **Advanced**: 23 topics (1 completed)
+- 🟡 **Intermediate**: 71 topics (24 completed)
+- 🔴 **Advanced**: 23 topics (2 completed)
 
 
 
@@ -521,4 +575,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-10*
+*Last updated: 2026-02-11*

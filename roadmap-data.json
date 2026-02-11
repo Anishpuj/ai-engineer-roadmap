@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-10",
-    "overallProgress": 34,
+    "lastUpdated": "2026-02-11",
+    "overallProgress": 37,
     "sections": [
       {
         "section": "Introduction",
@@ -465,7 +465,7 @@
       },
       {
         "section": "AI Safety and Ethics",
-        "progress": 0,
+        "progress": 30,
         "topics": [
           {
             "id": "understanding-ai-safety",
@@ -482,38 +482,41 @@
           {
             "id": "prompt-injection-attacks",
             "title": "Prompt Injection Attacks",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "injection-demo",
             "resources": [
               "Injection Guide",
               "Security Measures"
-            ]
+            ],
+            "completedDate": "2026-02-11"
           },
           {
             "id": "bias-fairness",
             "title": "Bias and Fairness",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "bias-analysis",
             "resources": [
               "Bias Guide",
               "Fairness Principles"
-            ]
+            ],
+            "completedDate": "2026-02-11"
           },
           {
             "id": "security-privacy",
             "title": "Security and Privacy Concerns",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "security-analysis",
             "resources": [
               "Security Guide",
               "Privacy Best Practices"
-            ]
+            ],
+            "completedDate": "2026-02-11"
           },
           {
             "id": "adversarial-testing",
