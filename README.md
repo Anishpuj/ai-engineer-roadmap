@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-███████░░░░░░░░░░░░░ 37%
+█████████░░░░░░░░░░░ 43%
 ```
 
-**🎯 41/112 topics completed**  
-**🏆 4/8 milestones achieved**  
-**📅 Last Updated: 2026-02-11**
+**🎯 48/112 topics completed**  
+**🏆 5/8 milestones achieved**  
+**📅 Last Updated: 2026-02-12**
 
 ---
 
@@ -25,7 +25,7 @@
 | Core LLM Concepts | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/8 | ⭕ Not Started |
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
-| AI Safety and Ethics | `██████░░░░░░░░░░░░░░` 30% | 3/10 | 🔄 In Progress |
+| AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
 | Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
@@ -45,10 +45,10 @@
 - **💬 Chat Application Complete** - Build a complete chat application *(2025-01-08)*
 - **🚀 Introduction Master** - Complete all introduction topics *(2026-02-08)*
 - **🔵 OpenAI Platform Expert** - Complete the entire OpenAI Platform section *(2026-02-08)*
+- **🛡️ AI Safety Certified** - Complete AI safety and ethics section *(2026-02-12)*
 
 ### 🎯 Next Milestones
 - **🧠 Core Concepts Master** - Complete all core LLM concepts
-- **🛡️ AI Safety Certified** - Complete AI safety and ethics section
 - **🎨 Multimodal Expert** - Complete all multimodal AI topics
 - **🚀 AI Engineer Ready** - Complete the entire roadmap
 
@@ -197,9 +197,14 @@
   - ✅ Completed: 2026-02-08
   - 📚 Resources: Prompt Writing, Best Practices
 
-### AI Safety and Ethics (30% Complete)
+### AI Safety and Ethics (100% Complete)
 
 #### ✅ Completed Topics
+- **Understanding AI Safety Issues** ⭐⭐⭐⭐
+  - 📁 Project: `safety-analysis`
+  - ✅ Completed: 2026-02-12
+  - 📚 Resources: Safety Guide, Ethics Documentation
+
 - **Prompt Injection Attacks** ⭐⭐⭐⭐⭐
   - 📁 Project: `injection-demo`
   - ✅ Completed: 2026-02-11
@@ -215,40 +220,34 @@
   - ✅ Completed: 2026-02-11
   - 📚 Resources: Security Guide, Privacy Best Practices
 
-#### 🔄 Upcoming Topics
-- **Understanding AI Safety Issues** ⭐⭐⭐⭐
-  - 📁 Project: `safety-analysis`
-  - ⏱️ Estimated: 3 hours
-  - 📚 Resources: Safety Guide, Ethics Documentation
-
 - **Adversarial Testing** ⭐⭐⭐⭐⭐
   - 📁 Project: `adversarial-demo`
-  - ⏱️ Estimated: 4 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: Testing Guide, Robustness
 
 - **OpenAI Moderation API** ⭐⭐⭐⭐
   - 📁 Project: `moderation-demo`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: Moderation API, Content Filtering
 
 - **Adding End-user IDs in Prompts** ⭐⭐⭐⭐
   - 📁 Project: `user-id-demo`
-  - ⏱️ Estimated: 1 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: User ID Guide, Tracking Best Practices
 
 - **Robust Prompt Engineering** ⭐⭐⭐⭐⭐
   - 📁 Project: `robust-prompts`
-  - ⏱️ Estimated: 4 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: Robust Prompts, Security Engineering
 
 - **Constraining Outputs and Inputs** ⭐⭐⭐⭐
   - 📁 Project: `constraints-demo`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: Constraints Guide, Output Control
 
 - **Safety Best Practices** ⭐⭐⭐⭐
   - 📁 Project: `safety-implementation`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-12
   - 📚 Resources: Safety Practices, Best Practices Guide
 
 ### Open Source AI (100% Complete)
@@ -459,19 +458,19 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 41 (37%)
+- **Completed**: 48 (43%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 71 (63%)
+- **Not Started**: 64 (57%)
 
 ### Time Investment
-- **Completed Hours**: 96 hours
+- **Completed Hours**: 115 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~260 hours
+- **Remaining**: ~241 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (24 completed)
-- 🔴 **Advanced**: 23 topics (2 completed)
+- 🟡 **Intermediate**: 71 topics (29 completed)
+- 🔴 **Advanced**: 23 topics (4 completed)
 
 
 
@@ -575,4 +574,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-11*
+*Last updated: 2026-02-12*

@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-11",
-    "overallProgress": 37,
+    "lastUpdated": "2026-02-12",
+    "overallProgress": 43,
     "sections": [
       {
         "section": "Introduction",
@@ -465,19 +465,20 @@
       },
       {
         "section": "AI Safety and Ethics",
-        "progress": 30,
+        "progress": 100,
         "topics": [
           {
             "id": "understanding-ai-safety",
             "title": "Understanding AI Safety Issues",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "safety-analysis",
             "resources": [
               "Safety Guide",
               "Ethics Documentation"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "prompt-injection-attacks",
@@ -521,74 +522,80 @@
           {
             "id": "adversarial-testing",
             "title": "Adversarial Testing",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "adversarial-demo",
             "resources": [
               "Testing Guide",
               "Robustness"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "openai-moderation-api",
             "title": "OpenAI Moderation API",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "moderation-demo",
             "resources": [
               "Moderation API",
               "Content Filtering"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "end-user-ids",
             "title": "Adding End-user IDs in Prompts",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 1,
             "project": "user-id-demo",
             "resources": [
               "User ID Guide",
               "Tracking Best Practices"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "robust-prompt-engineering",
             "title": "Robust Prompt Engineering",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "robust-prompts",
             "resources": [
               "Robust Prompts",
               "Security Engineering"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "constraining-outputs",
             "title": "Constraining Outputs and Inputs",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "constraints-demo",
             "resources": [
               "Constraints Guide",
               "Output Control"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           },
           {
             "id": "safety-best-practices",
             "title": "Safety Best Practices",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "safety-implementation",
             "resources": [
               "Safety Practices",
               "Best Practices Guide"
-            ]
+            ],
+            "completedDate": "2026-02-12"
           }
         ]
       },
@@ -1557,7 +1564,8 @@
           "constraining-outputs",
           "safety-best-practices"
         ],
-        "achieved": false
+        "achieved": true,
+        "achievedDate": "2026-02-12"
       },
       {
         "id": "multimodal-expert",
