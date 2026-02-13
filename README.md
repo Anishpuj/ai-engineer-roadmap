@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-█████████░░░░░░░░░░░ 43%
+█████████░░░░░░░░░░░ 44%
 ```
 
-**🎯 48/112 topics completed**  
+**🎯 49/112 topics completed**  
 **🏆 5/8 milestones achieved**  
-**📅 Last Updated: 2026-02-12**
+**📅 Last Updated: 2026-02-13**
 
 ---
 
@@ -27,7 +27,7 @@
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
-| Embeddings | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/9 | ⭕ Not Started |
+| Embeddings | `██░░░░░░░░░░░░░░░░░░` 11% | 1/9 | 🔄 In Progress |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | AI Agents | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/7 | ⭕ Not Started |
@@ -313,6 +313,55 @@
   - ✅ Completed: 2026-02-10
   - 📚 Resources: Ollama SDK, API Integration
 
+### Embeddings (11% Complete)
+
+#### ✅ Completed Topics
+- **What are Embeddings** ⭐⭐⭐⭐
+  - 📁 Project: `embedding-explanation`
+  - ✅ Completed: 2026-02-13
+  - 📚 Resources: Embedding Basics, Vector Representations
+
+#### 🔄 Upcoming Topics
+- **Semantic Search** ⭐⭐⭐⭐
+  - 📁 Project: `semantic-search-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Semantic Search, Search Algorithms
+
+- **Recommendation Systems** ⭐⭐⭐⭐⭐
+  - 📁 Project: `recommendation-demo`
+  - ⏱️ Estimated: 4 hours
+  - 📚 Resources: Recommendation Guide, System Design
+
+- **Anomaly Detection** ⭐⭐⭐⭐⭐
+  - 📁 Project: `anomaly-demo`
+  - ⏱️ Estimated: 4 hours
+  - 📚 Resources: Anomaly Detection, Pattern Recognition
+
+- **Data Classification** ⭐⭐⭐⭐
+  - 📁 Project: `classification-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Classification Guide, ML Techniques
+
+- **OpenAI Embeddings API** ⭐⭐⭐⭐
+  - 📁 Project: `openai-embeddings-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Embeddings API, OpenAI Docs
+
+- **OpenAI Embedding Models** ⭐⭐⭐⭐
+  - 📁 Project: `embedding-models-demo`
+  - ⏱️ Estimated: 2 hours
+  - 📚 Resources: Embedding Models, Model Comparison
+
+- **Open Source Embeddings** ⭐⭐⭐⭐
+  - 📁 Project: `open-source-embeddings-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Open Source Embeddings, Model Alternatives
+
+- **Sentence Transformers** ⭐⭐⭐⭐
+  - 📁 Project: `sentence-transformers-demo`
+  - ⏱️ Estimated: 3 hours
+  - 📚 Resources: Sentence Transformers, Text Processing
+
 
 
 ---
@@ -458,18 +507,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 48 (43%)
+- **Completed**: 49 (44%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 64 (57%)
+- **Not Started**: 63 (56%)
 
 ### Time Investment
-- **Completed Hours**: 115 hours
+- **Completed Hours**: 118 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~241 hours
+- **Remaining**: ~238 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (29 completed)
+- 🟡 **Intermediate**: 71 topics (30 completed)
 - 🔴 **Advanced**: 23 topics (4 completed)
 
 
@@ -574,4 +623,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-12*
+*Last updated: 2026-02-13*

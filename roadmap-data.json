@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-12",
-    "overallProgress": 43,
+    "lastUpdated": "2026-02-13",
+    "overallProgress": 44,
     "sections": [
       {
         "section": "Introduction",
@@ -763,19 +763,20 @@
       },
       {
         "section": "Embeddings",
-        "progress": 0,
+        "progress": 11,
         "topics": [
           {
             "id": "what-are-embeddings",
             "title": "What are Embeddings",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "embedding-explanation",
             "resources": [
               "Embedding Basics",
               "Vector Representations"
-            ]
+            ],
+            "completedDate": "2026-02-13"
           },
           {
             "id": "semantic-search",
