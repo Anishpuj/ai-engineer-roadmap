@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-█████████░░░░░░░░░░░ 44%
+█████████░░░░░░░░░░░ 45%
 ```
 
-**🎯 49/112 topics completed**  
+**🎯 50/112 topics completed**  
 **🏆 5/8 milestones achieved**  
-**📅 Last Updated: 2026-02-13**
+**📅 Last Updated: 2026-02-14**
 
 ---
 
@@ -27,7 +27,7 @@
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
-| Embeddings | `██░░░░░░░░░░░░░░░░░░` 11% | 1/9 | 🔄 In Progress |
+| Embeddings | `████░░░░░░░░░░░░░░░░` 22% | 2/9 | 🔄 In Progress |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | AI Agents | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/7 | ⭕ Not Started |
@@ -313,7 +313,7 @@
   - ✅ Completed: 2026-02-10
   - 📚 Resources: Ollama SDK, API Integration
 
-### Embeddings (11% Complete)
+### Embeddings (22% Complete)
 
 #### ✅ Completed Topics
 - **What are Embeddings** ⭐⭐⭐⭐
@@ -321,12 +321,12 @@
   - ✅ Completed: 2026-02-13
   - 📚 Resources: Embedding Basics, Vector Representations
 
-#### 🔄 Upcoming Topics
 - **Semantic Search** ⭐⭐⭐⭐
   - 📁 Project: `semantic-search-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-14
   - 📚 Resources: Semantic Search, Search Algorithms
 
+#### 🔄 Upcoming Topics
 - **Recommendation Systems** ⭐⭐⭐⭐⭐
   - 📁 Project: `recommendation-demo`
   - ⏱️ Estimated: 4 hours
@@ -507,18 +507,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 49 (44%)
+- **Completed**: 50 (45%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 63 (56%)
+- **Not Started**: 62 (55%)
 
 ### Time Investment
-- **Completed Hours**: 118 hours
+- **Completed Hours**: 121 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~238 hours
+- **Remaining**: ~235 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (30 completed)
+- 🟡 **Intermediate**: 71 topics (31 completed)
 - 🔴 **Advanced**: 23 topics (4 completed)
 
 
@@ -623,4 +623,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-13*
+*Last updated: 2026-02-14*

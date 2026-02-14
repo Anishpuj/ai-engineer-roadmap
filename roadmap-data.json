@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-13",
-    "overallProgress": 44,
+    "lastUpdated": "2026-02-14",
+    "overallProgress": 45,
     "sections": [
       {
         "section": "Introduction",
@@ -763,7 +763,7 @@
       },
       {
         "section": "Embeddings",
-        "progress": 11,
+        "progress": 22,
         "topics": [
           {
             "id": "what-are-embeddings",
@@ -781,14 +781,15 @@
           {
             "id": "semantic-search",
             "title": "Semantic Search",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "semantic-search-demo",
             "resources": [
               "Semantic Search",
               "Search Algorithms"
-            ]
+            ],
+            "completedDate": "2026-02-14"
           },
           {
             "id": "recommendation-systems",
