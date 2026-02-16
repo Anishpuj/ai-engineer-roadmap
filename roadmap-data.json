@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-14",
-    "overallProgress": 45,
+    "lastUpdated": "2026-02-16",
+    "overallProgress": 49,
     "sections": [
       {
         "section": "Introduction",
@@ -763,7 +763,7 @@
       },
       {
         "section": "Embeddings",
-        "progress": 22,
+        "progress": 78,
         "topics": [
           {
             "id": "what-are-embeddings",
@@ -794,62 +794,67 @@
           {
             "id": "recommendation-systems",
             "title": "Recommendation Systems",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "recommendation-demo",
             "resources": [
               "Recommendation Guide",
               "System Design"
-            ]
+            ],
+            "completedDate": "2026-02-16"
           },
           {
             "id": "anomaly-detection",
             "title": "Anomaly Detection",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "anomaly-demo",
             "resources": [
               "Anomaly Detection",
               "Pattern Recognition"
-            ]
+            ],
+            "completedDate": "2026-02-16"
           },
           {
             "id": "data-classification",
             "title": "Data Classification",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "classification-demo",
             "resources": [
               "Classification Guide",
               "ML Techniques"
-            ]
+            ],
+            "completedDate": "2026-02-16"
           },
           {
             "id": "openai-embeddings-api",
             "title": "OpenAI Embeddings API",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "openai-embeddings-demo",
             "resources": [
               "Embeddings API",
               "OpenAI Docs"
-            ]
+            ],
+            "completedDate": "2026-02-16"
           },
           {
             "id": "openai-embedding-models",
             "title": "OpenAI Embedding Models",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "embedding-models-demo",
             "resources": [
               "Embedding Models",
               "Model Comparison"
-            ]
+            ],
+            "completedDate": "2026-02-16"
           },
           {
             "id": "open-source-embeddings",

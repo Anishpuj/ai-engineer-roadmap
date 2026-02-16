@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-█████████░░░░░░░░░░░ 45%
+██████████░░░░░░░░░░ 49%
 ```
 
-**🎯 50/112 topics completed**  
+**🎯 55/112 topics completed**  
 **🏆 5/8 milestones achieved**  
-**📅 Last Updated: 2026-02-14**
+**📅 Last Updated: 2026-02-16**
 
 ---
 
@@ -27,7 +27,7 @@
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
-| Embeddings | `████░░░░░░░░░░░░░░░░` 22% | 2/9 | 🔄 In Progress |
+| Embeddings | `████████████████░░░░` 78% | 7/9 | 🔄 In Progress |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | AI Agents | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/7 | ⭕ Not Started |
@@ -313,7 +313,7 @@
   - ✅ Completed: 2026-02-10
   - 📚 Resources: Ollama SDK, API Integration
 
-### Embeddings (22% Complete)
+### Embeddings (78% Complete)
 
 #### ✅ Completed Topics
 - **What are Embeddings** ⭐⭐⭐⭐
@@ -326,32 +326,32 @@
   - ✅ Completed: 2026-02-14
   - 📚 Resources: Semantic Search, Search Algorithms
 
-#### 🔄 Upcoming Topics
 - **Recommendation Systems** ⭐⭐⭐⭐⭐
   - 📁 Project: `recommendation-demo`
-  - ⏱️ Estimated: 4 hours
+  - ✅ Completed: 2026-02-16
   - 📚 Resources: Recommendation Guide, System Design
 
 - **Anomaly Detection** ⭐⭐⭐⭐⭐
   - 📁 Project: `anomaly-demo`
-  - ⏱️ Estimated: 4 hours
+  - ✅ Completed: 2026-02-16
   - 📚 Resources: Anomaly Detection, Pattern Recognition
 
 - **Data Classification** ⭐⭐⭐⭐
   - 📁 Project: `classification-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-16
   - 📚 Resources: Classification Guide, ML Techniques
 
 - **OpenAI Embeddings API** ⭐⭐⭐⭐
   - 📁 Project: `openai-embeddings-demo`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-16
   - 📚 Resources: Embeddings API, OpenAI Docs
 
 - **OpenAI Embedding Models** ⭐⭐⭐⭐
   - 📁 Project: `embedding-models-demo`
-  - ⏱️ Estimated: 2 hours
+  - ✅ Completed: 2026-02-16
   - 📚 Resources: Embedding Models, Model Comparison
 
+#### 🔄 Upcoming Topics
 - **Open Source Embeddings** ⭐⭐⭐⭐
   - 📁 Project: `open-source-embeddings-demo`
   - ⏱️ Estimated: 3 hours
@@ -507,19 +507,19 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 50 (45%)
+- **Completed**: 55 (49%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 62 (55%)
+- **Not Started**: 57 (51%)
 
 ### Time Investment
-- **Completed Hours**: 121 hours
+- **Completed Hours**: 136 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~235 hours
+- **Remaining**: ~220 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (31 completed)
-- 🔴 **Advanced**: 23 topics (4 completed)
+- 🟡 **Intermediate**: 71 topics (34 completed)
+- 🔴 **Advanced**: 23 topics (6 completed)
 
 
 
@@ -623,4 +623,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-14*
+*Last updated: 2026-02-16*
