@@ -8,12 +8,12 @@
 ## 📊 Overall Progress
 
 ```
-██████████░░░░░░░░░░ 49%
+██████████░░░░░░░░░░ 51%
 ```
 
-**🎯 55/112 topics completed**  
+**🎯 57/112 topics completed**  
 **🏆 5/8 milestones achieved**  
-**📅 Last Updated: 2026-02-16**
+**📅 Last Updated: 2026-02-17**
 
 ---
 
@@ -27,7 +27,7 @@
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
 | Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
-| Embeddings | `████████████████░░░░` 78% | 7/9 | 🔄 In Progress |
+| Embeddings | `████████████████████` 100% | 9/9 | ✅ Complete |
 | Vector Databases | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | RAG (Retrieval Augmented Generation) | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/12 | ⭕ Not Started |
 | AI Agents | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/7 | ⭕ Not Started |
@@ -313,7 +313,7 @@
   - ✅ Completed: 2026-02-10
   - 📚 Resources: Ollama SDK, API Integration
 
-### Embeddings (78% Complete)
+### Embeddings (100% Complete)
 
 #### ✅ Completed Topics
 - **What are Embeddings** ⭐⭐⭐⭐
@@ -351,15 +351,14 @@
   - ✅ Completed: 2026-02-16
   - 📚 Resources: Embedding Models, Model Comparison
 
-#### 🔄 Upcoming Topics
 - **Open Source Embeddings** ⭐⭐⭐⭐
   - 📁 Project: `open-source-embeddings-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-17
   - 📚 Resources: Open Source Embeddings, Model Alternatives
 
 - **Sentence Transformers** ⭐⭐⭐⭐
   - 📁 Project: `sentence-transformers-demo`
-  - ⏱️ Estimated: 3 hours
+  - ✅ Completed: 2026-02-17
   - 📚 Resources: Sentence Transformers, Text Processing
 
 
@@ -507,18 +506,18 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 55 (49%)
+- **Completed**: 57 (51%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 57 (51%)
+- **Not Started**: 55 (49%)
 
 ### Time Investment
-- **Completed Hours**: 136 hours
+- **Completed Hours**: 142 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~220 hours
+- **Remaining**: ~214 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (15 completed)
-- 🟡 **Intermediate**: 71 topics (34 completed)
+- 🟡 **Intermediate**: 71 topics (36 completed)
 - 🔴 **Advanced**: 23 topics (6 completed)
 
 
@@ -623,4 +622,4 @@ This roadmap is open for educational purposes. Learn, build, and share! 🚀
 ---
 
 **🔥 Keep learning, keep building, keep growing!**  
-*Last updated: 2026-02-16*
+*Last updated: 2026-02-17*
