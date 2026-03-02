@@ -2,8 +2,8 @@
   "roadmap": {
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
-    "lastUpdated": "2026-02-17",
-    "overallProgress": 51,
+    "lastUpdated": "2026-03-02",
+    "overallProgress": 62,
     "sections": [
       {
         "section": "Introduction",
@@ -886,151 +886,163 @@
       },
       {
         "section": "Vector Databases",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "purpose-functionality",
             "title": "Purpose and Functionality",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "vector-db-purpose",
             "resources": [
               "Vector DB Purpose",
               "Database Concepts"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "chroma",
             "title": "Chroma",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chroma-demo",
             "resources": [
               "Chroma DB",
               "Chroma Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "pinecone",
             "title": "Pinecone",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "pinecone-demo",
             "resources": [
               "Pinecone DB",
               "Pinecone Docs"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "weaviate",
             "title": "Weaviate",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "weaviate-demo",
             "resources": [
               "Weaviate DB",
               "Weaviate Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "faiss",
             "title": "FAISS",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "faiss-demo",
             "resources": [
               "FAISS Library",
               "Facebook AI"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "lancedb",
             "title": "LanceDB",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "lancedb-demo",
             "resources": [
               "LanceDB",
               "Lance Documentation"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "qdrant",
             "title": "Qdrant",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "qdrant-demo",
             "resources": [
               "Qdrant DB",
               "Qdrant Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "supabase",
             "title": "Supabase",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "supabase-vector",
             "resources": [
               "Supabase",
               "Vector Extensions"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "mongodb-atlas",
             "title": "MongoDB Atlas",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "mongodb-vector",
             "resources": [
               "MongoDB Atlas",
               "Vector Search"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "indexing-embeddings",
             "title": "Indexing Embeddings",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "indexing-demo",
             "resources": [
               "Indexing Guide",
               "Search Optimization"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "similarity-search",
             "title": "Similarity Search",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "similarity-demo",
             "resources": [
               "Similarity Search",
               "Search Algorithms"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "vector-search-implementation",
             "title": "Vector Search Implementation",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "vector-search-app",
             "resources": [
               "Implementation Guide",
               "End-to-End"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       },
