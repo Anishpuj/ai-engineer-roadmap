@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-03-02",
-    "overallProgress": 75,
+    "overallProgress": 84,
     "sections": [
       {
         "section": "Introduction",
@@ -1056,7 +1056,7 @@
       },
       {
         "section": "RAG (Retrieval Augmented Generation)",
-        "progress": 17,
+        "progress": 100,
         "topics": [
           {
             "id": "rag-usecases",
@@ -1087,122 +1087,132 @@
           {
             "id": "chunking",
             "title": "Chunking",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "chunking-demo",
             "resources": [
               "Chunking Guide",
               "Text Processing"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "embedding-rag",
             "title": "Embedding",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-embedding",
             "resources": [
               "RAG Embeddings",
               "Vector Creation"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "retrieval-process",
             "title": "Retrieval Process",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "retrieval-demo",
             "resources": [
               "Retrieval Process",
               "Search Algorithms"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "generation",
             "title": "Generation",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "generation-demo",
             "resources": [
               "Generation Process",
               "Output Creation"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "implementing-rag",
             "title": "Implementing RAG",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "rag-system",
             "resources": [
               "RAG Implementation",
               "End-to-End Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "using-sdks-directly",
             "title": "Using SDKs Directly",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "sdk-rag",
             "resources": [
               "SDK Implementation",
               "Direct APIs"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "langchain",
             "title": "LangChain",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "langchain-rag",
             "resources": [
               "LangChain RAG",
               "Framework Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "llamaindex",
             "title": "LlamaIndex",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "llamaindex-rag",
             "resources": [
               "LlamaIndex RAG",
               "Framework Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "openai-assistants-api",
             "title": "OpenAI Assistants API",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "assistants-api",
             "resources": [
               "Assistants API",
               "OpenAI Docs"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "replicate",
             "title": "Replicate",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "replicate-rag",
             "resources": [
               "Replicate Platform",
               "Model Deployment"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       },
