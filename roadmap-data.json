@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-03-02",
-    "overallProgress": 66,
+    "overallProgress": 73,
     "sections": [
       {
         "section": "Introduction",
@@ -91,103 +91,111 @@
       },
       {
         "section": "Core LLM Concepts",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "llms",
             "title": "LLMs",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 2,
             "project": "llm-overview",
             "resources": [
               "LLM Guide",
               "Model Architecture"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "inference",
             "title": "Inference",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "inference-demo",
             "resources": [
               "Inference Guide",
               "Model Deployment"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "training",
             "title": "Training",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 8,
             "project": "training-basics",
             "resources": [
               "Training Guide",
               "Model Training"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "embeddings",
             "title": "Embeddings",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "embedding-basics",
             "resources": [
               "Embedding Guide",
               "Vector Representations"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "vector-databases",
             "title": "Vector Databases",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "vector-db-intro",
             "resources": [
               "Vector DB Guide",
               "Database Concepts"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "rag",
             "title": "RAG",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 4,
             "project": "rag-intro",
             "resources": [
               "RAG Guide",
               "Retrieval Concepts"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "prompt-engineering",
             "title": "Prompt Engineering",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "prompt-basics",
             "resources": [
               "Prompt Guide",
               "Engineering Techniques"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "ai-agents",
             "title": "AI Agents",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "agent-intro",
             "resources": [
               "Agent Guide",
               "Autonomous Systems"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       },
@@ -1553,7 +1561,8 @@
           "prompt-engineering",
           "ai-agents"
         ],
-        "achieved": false
+        "achieved": true,
+        "achievedDate": "2026-03-02"
       },
       {
         "id": "openai-platform-expert",

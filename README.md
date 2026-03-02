@@ -8,11 +8,11 @@
 ## 📊 Overall Progress
 
 ```
-█████████████░░░░░░░ 66%
+███████████████░░░░░ 73%
 ```
 
-**🎯 74/112 topics completed**  
-**🏆 5/8 milestones achieved**  
+**🎯 82/112 topics completed**  
+**🏆 6/8 milestones achieved**  
 **📅 Last Updated: 2026-03-02**
 
 ---
@@ -22,7 +22,7 @@
 | Section | Progress | Topics | Status |
 |---------|----------|--------|---------|
 | Introduction | `████████████████████` 100% | 6/6 | ✅ Complete |
-| Core LLM Concepts | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/8 | ⭕ Not Started |
+| Core LLM Concepts | `████████████████████` 100% | 8/8 | ✅ Complete |
 | Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
 | OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
 | AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
@@ -44,11 +44,11 @@
 - **🎉 First API Call** - Successfully make your first OpenAI API call *(2025-01-08)*
 - **💬 Chat Application Complete** - Build a complete chat application *(2025-01-08)*
 - **🚀 Introduction Master** - Complete all introduction topics *(2026-02-08)*
+- **🧠 Core Concepts Master** - Complete all core LLM concepts *(2026-03-02)*
 - **🔵 OpenAI Platform Expert** - Complete the entire OpenAI Platform section *(2026-02-08)*
 - **🛡️ AI Safety Certified** - Complete AI safety and ethics section *(2026-02-12)*
 
 ### 🎯 Next Milestones
-- **🧠 Core Concepts Master** - Complete all core LLM concepts
 - **🎨 Multimodal Expert** - Complete all multimodal AI topics
 - **🚀 AI Engineer Ready** - Complete the entire roadmap
 
@@ -90,6 +90,49 @@
   - 📁 Project: `terminology-guide`
   - ✅ Completed: 2026-02-08
   - 📚 Resources: AI Glossary, Technical Terms
+
+### Core LLM Concepts (100% Complete)
+
+#### ✅ Completed Topics
+- **LLMs** ⭐⭐⭐
+  - 📁 Project: `llm-overview`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: LLM Guide, Model Architecture
+
+- **Inference** ⭐⭐⭐⭐
+  - 📁 Project: `inference-demo`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Inference Guide, Model Deployment
+
+- **Training** ⭐⭐⭐⭐⭐
+  - 📁 Project: `training-basics`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Training Guide, Model Training
+
+- **Embeddings** ⭐⭐⭐⭐
+  - 📁 Project: `embedding-basics`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Embedding Guide, Vector Representations
+
+- **Vector Databases** ⭐⭐⭐⭐
+  - 📁 Project: `vector-db-intro`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Vector DB Guide, Database Concepts
+
+- **RAG** ⭐⭐⭐⭐
+  - 📁 Project: `rag-intro`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: RAG Guide, Retrieval Concepts
+
+- **Prompt Engineering** ⭐⭐⭐⭐
+  - 📁 Project: `prompt-basics`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Prompt Guide, Engineering Techniques
+
+- **AI Agents** ⭐⭐⭐⭐⭐
+  - 📁 Project: `agent-intro`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Agent Guide, Autonomous Systems
 
 ### Working with Pretrained Models (100% Complete)
 
@@ -600,19 +643,19 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 74 (66%)
+- **Completed**: 82 (73%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 38 (34%)
+- **Not Started**: 30 (27%)
 
 ### Time Investment
-- **Completed Hours**: 229 hours
+- **Completed Hours**: 261 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~127 hours
+- **Remaining**: ~95 hours
 
 ### Difficulty Breakdown
-- 🟢 **Beginner**: 18 topics (17 completed)
-- 🟡 **Intermediate**: 71 topics (46 completed)
-- 🔴 **Advanced**: 23 topics (11 completed)
+- 🟢 **Beginner**: 18 topics (18 completed)
+- 🟡 **Intermediate**: 71 topics (51 completed)
+- 🔴 **Advanced**: 23 topics (13 completed)
 
 
 
