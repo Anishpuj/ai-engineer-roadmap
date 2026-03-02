@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-03-02",
-    "overallProgress": 84,
+    "overallProgress": 90,
     "sections": [
       {
         "section": "Introduction",
@@ -1218,91 +1218,98 @@
       },
       {
         "section": "AI Agents",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "agents-usecases",
             "title": "Agents Usecases",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "agent-usecases",
             "resources": [
               "Agent Use Cases",
               "Application Examples"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "react-prompting",
             "title": "ReAct Prompting",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 3,
             "project": "react-demo",
             "resources": [
               "ReAct Prompting",
               "Reasoning Framework"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "manual-implementation",
             "title": "Manual Implementation",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 5,
             "project": "manual-agent",
             "resources": [
               "Manual Implementation",
               "Custom Agents"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "openai-functions-tools",
             "title": "OpenAI Functions/Tools",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 4,
             "project": "functions-tools",
             "resources": [
               "Functions/Tools",
               "OpenAI Docs"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "assistant-api-agents",
             "title": "Assistant API",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 3,
             "project": "assistant-agent",
             "resources": [
               "Assistant API",
               "Agent Framework"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "building-ai-agents",
             "title": "Building AI Agents",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 6,
             "project": "ai-agent-system",
             "resources": [
               "Agent Building",
               "System Design"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "rag-as-agent-alternative",
             "title": "RAG as Agent Alternative",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-agent-alternative",
             "resources": [
               "RAG Alternative",
               "Agent Design"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       },

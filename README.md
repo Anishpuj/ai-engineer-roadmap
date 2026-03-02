@@ -8,10 +8,10 @@
 ## 📊 Overall Progress
 
 ```
-█████████████████░░░ 84%
+██████████████████░░ 90%
 ```
 
-**🎯 94/112 topics completed**  
+**🎯 101/112 topics completed**  
 **🏆 6/8 milestones achieved**  
 **📅 Last Updated: 2026-03-02**
 
@@ -30,7 +30,7 @@
 | Embeddings | `████████████████████` 100% | 9/9 | ✅ Complete |
 | Vector Databases | `████████████████████` 100% | 12/12 | ✅ Complete |
 | RAG (Retrieval Augmented Generation) | `████████████████████` 100% | 12/12 | ✅ Complete |
-| AI Agents | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/7 | ⭕ Not Started |
+| AI Agents | `████████████████████` 100% | 7/7 | ✅ Complete |
 | Multimodal AI | `░░░░░░░░░░░░░░░░░░░░` 0% | 0/11 | ⭕ Not Started |
 | Development Tools | `████████████████████` 100% | 2/2 | ✅ Complete |
 | Related Learning Tracks | `████████████████████` 100% | 3/3 | ✅ Complete |
@@ -530,6 +530,44 @@
   - ✅ Completed: 2026-03-02
   - 📚 Resources: Replicate Platform, Model Deployment
 
+### AI Agents (100% Complete)
+
+#### ✅ Completed Topics
+- **Agents Usecases** ⭐⭐⭐⭐
+  - 📁 Project: `agent-usecases`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Agent Use Cases, Application Examples
+
+- **ReAct Prompting** ⭐⭐⭐⭐⭐
+  - 📁 Project: `react-demo`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: ReAct Prompting, Reasoning Framework
+
+- **Manual Implementation** ⭐⭐⭐⭐⭐
+  - 📁 Project: `manual-agent`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Manual Implementation, Custom Agents
+
+- **OpenAI Functions/Tools** ⭐⭐⭐⭐⭐
+  - 📁 Project: `functions-tools`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Functions/Tools, OpenAI Docs
+
+- **Assistant API** ⭐⭐⭐⭐
+  - 📁 Project: `assistant-agent`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Assistant API, Agent Framework
+
+- **Building AI Agents** ⭐⭐⭐⭐⭐
+  - 📁 Project: `ai-agent-system`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: Agent Building, System Design
+
+- **RAG as Agent Alternative** ⭐⭐⭐⭐
+  - 📁 Project: `rag-agent-alternative`
+  - ✅ Completed: 2026-03-02
+  - 📚 Resources: RAG Alternative, Agent Design
+
 ### Development Tools (100% Complete)
 
 #### ✅ Completed Topics
@@ -706,19 +744,19 @@ node update-progress.cjs milestones
 
 ### Learning Progress
 - **Total Topics**: 112
-- **Completed**: 94 (84%)
+- **Completed**: 101 (90%)
 - **In Progress**: 0 (0%)
-- **Not Started**: 18 (16%)
+- **Not Started**: 11 (10%)
 
 ### Time Investment
-- **Completed Hours**: 299 hours
+- **Completed Hours**: 324 hours
 - **Estimated Total**: 356 hours
-- **Remaining**: ~57 hours
+- **Remaining**: ~32 hours
 
 ### Difficulty Breakdown
 - 🟢 **Beginner**: 18 topics (18 completed)
-- 🟡 **Intermediate**: 71 topics (60 completed)
-- 🔴 **Advanced**: 23 topics (16 completed)
+- 🟡 **Intermediate**: 71 topics (63 completed)
+- 🔴 **Advanced**: 23 topics (20 completed)
 
 
 
