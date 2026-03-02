@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-03-02",
-    "overallProgress": 73,
+    "overallProgress": 75,
     "sections": [
       {
         "section": "Introduction",
@@ -1056,31 +1056,33 @@
       },
       {
         "section": "RAG (Retrieval Augmented Generation)",
-        "progress": 0,
+        "progress": 17,
         "topics": [
           {
             "id": "rag-usecases",
             "title": "RAG Usecases",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-usecases-demo",
             "resources": [
               "RAG Use Cases",
               "Application Examples"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "rag-vs-fine-tuning",
             "title": "RAG vs Fine-tuning",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 2,
             "project": "rag-comparison",
             "resources": [
               "RAG vs Fine-tuning",
               "Comparison Guide"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "chunking",
