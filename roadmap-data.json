@@ -3,7 +3,7 @@
     "title": "AI Engineer Roadmap",
     "description": "Comprehensive learning path to become an AI Engineer",
     "lastUpdated": "2026-03-02",
-    "overallProgress": 62,
+    "overallProgress": 66,
     "sections": [
       {
         "section": "Introduction",
@@ -1426,73 +1426,78 @@
       },
       {
         "section": "Development Tools",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "ai-code-editors",
             "title": "AI Code Editors",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "ai-editor-setup",
             "resources": [
               "AI Editors",
               "Code Tools"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "code-completion-tools",
             "title": "Code Completion Tools",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "beginner",
             "estimatedHours": 1,
             "project": "completion-tools",
             "resources": [
               "Completion Tools",
               "Productivity"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       },
       {
         "section": "Related Learning Tracks",
-        "progress": 0,
+        "progress": 100,
         "topics": [
           {
             "id": "prompt-engineering-track",
             "title": "Prompt Engineering",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 10,
             "project": "prompt-engineering-deep",
             "resources": [
               "Prompt Engineering Track",
               "Advanced Techniques"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "ai-data-scientist-track",
             "title": "AI & Data Scientist Track",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "advanced",
             "estimatedHours": 20,
             "project": "data-scientist-path",
             "resources": [
               "Data Scientist Track",
               "Career Path"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           },
           {
             "id": "data-analyst-track",
             "title": "Data Analyst Track",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "intermediate",
             "estimatedHours": 15,
             "project": "data-analyst-path",
             "resources": [
               "Data Analyst Track",
               "Analytics Path"
-            ]
+            ],
+            "completedDate": "2026-03-02"
           }
         ]
       }
