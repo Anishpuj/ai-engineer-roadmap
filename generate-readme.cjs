@@ -46,8 +46,8 @@ function getDifficultyIcon(difficulty) {
 
 // Generate category table
 function generateCategoryTable(sections) {
-  let table = '| Section | Progress | Topics | Status |\n';
-  table += '|---------|----------|--------|---------|\n';
+  let table = '| Section | Progress | Topics | Status | Last Completed |\n';
+  table += '|---------|----------|--------|---------|----------------|\n';
   
   sections.forEach(section => {
     const progress = generateProgressBar(section.progress || 0);
@@ -56,7 +56,13 @@ function generateCategoryTable(sections) {
     const status = (section.progress || 0) === 0 ? '⭕ Not Started' : 
                    (section.progress || 0) === 100 ? '✅ Complete' : '🔄 In Progress';
     
-    table += `| ${section.section} | \`${progress}\` ${(section.progress || 0)}% | ${completedCount}/${totalCount} | ${status} |\n`;
+    // Get the most recent completion date
+    const completedTopics = section.topics.filter(t => t.status === 'completed');
+    const lastCompleted = completedTopics.length > 0 
+      ? completedTopics.sort((a, b) => new Date(b.completedDate || '1970-01-01') - new Date(a.completedDate || '1970-01-01'))[0].completedDate || ''
+      : '';
+    
+    table += `| ${section.section} | \`${progress}\` ${(section.progress || 0)}% | ${completedCount}/${totalCount} | ${status} | ${lastCompleted} |\n`;
   });
   
   return table;

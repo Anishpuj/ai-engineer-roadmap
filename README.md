@@ -19,21 +19,21 @@
 
 ## 🗺️ Roadmap Overview
 
-| Section | Progress | Topics | Status |
-|---------|----------|--------|---------|
-| Introduction | `████████████████████` 100% | 6/6 | ✅ Complete |
-| Core LLM Concepts | `████████████████████` 100% | 8/8 | ✅ Complete |
-| Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete |
-| OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete |
-| AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete |
-| Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete |
-| Embeddings | `████████████████████` 100% | 9/9 | ✅ Complete |
-| Vector Databases | `████████████████████` 100% | 12/12 | ✅ Complete |
-| RAG (Retrieval Augmented Generation) | `████████████████████` 100% | 12/12 | ✅ Complete |
-| AI Agents | `████████████████████` 100% | 7/7 | ✅ Complete |
-| Multimodal AI | `████████████████████` 100% | 11/11 | ✅ Complete |
-| Development Tools | `████████████████████` 100% | 2/2 | ✅ Complete |
-| Related Learning Tracks | `████████████████████` 100% | 3/3 | ✅ Complete |
+| Section | Progress | Topics | Status | Last Completed |
+|---------|----------|--------|---------|----------------|
+| Introduction | `████████████████████` 100% | 6/6 | ✅ Complete | 2026-02-08 |
+| Core LLM Concepts | `████████████████████` 100% | 8/8 | ✅ Complete | 2026-03-02 |
+| Working with Pretrained Models | `████████████████████` 100% | 10/10 | ✅ Complete | 2026-02-08 |
+| OpenAI Platform | `████████████████████` 100% | 10/10 | ✅ Complete | 2026-02-08 |
+| AI Safety and Ethics | `████████████████████` 100% | 10/10 | ✅ Complete | 2026-02-12 |
+| Open Source AI | `████████████████████` 100% | 12/12 | ✅ Complete | 2026-02-10 |
+| Embeddings | `████████████████████` 100% | 9/9 | ✅ Complete | 2026-02-17 |
+| Vector Databases | `████████████████████` 100% | 12/12 | ✅ Complete | 2026-03-02 |
+| RAG (Retrieval Augmented Generation) | `████████████████████` 100% | 12/12 | ✅ Complete | 2026-03-02 |
+| AI Agents | `████████████████████` 100% | 7/7 | ✅ Complete | 2026-03-02 |
+| Multimodal AI | `████████████████████` 100% | 11/11 | ✅ Complete | 2026-03-03 |
+| Development Tools | `████████████████████` 100% | 2/2 | ✅ Complete | 2026-03-02 |
+| Related Learning Tracks | `████████████████████` 100% | 3/3 | ✅ Complete | 2026-03-02 |
 
 
 ---
